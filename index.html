@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
 
   <title>Benjamin Congdon's Personal Website</title>
   <!-- Latest compiled and minified JavaScript -->
@@ -20,37 +22,49 @@
 <body>
 
   <div class="container">
-
-    <div class="jumbotron">
-      <img src="img/profile.png" class="img-responsive img-circle profile center-block" alt="Profile">
-      <h1>Benjamin Congdon</h1>
-
-      <p class="muted">I'm a first year Computer Science student at <u><a href="https://cs.illinois.edu/">UIUC</a></u>.</p>
-      <div class="btn-group">
-        <a href="mailto:bcongdo2@illinois.edu"><button class="btn btn-sm btn-default"  type="button">Email <i class="fa fa-envelope-o"></i></button></a>
-        <a href="https://github.com/benjamincongdon"><button class="btn btn-sm btn-default" type="button">Github <i class="fa fa-github"></i></button></a>
-        <a href="assets/BenjaminCongdonResume.pdf"><button class="btn btn-sm btn-default" type="button">Resume <i class="fa fa-file-text-o"></i></button></a>
+    <div class="row">
+      <div class="headshot col-md-6 vert-align">
+        <img src="img/profile.png" class="img-responsive img-rounded profile center-block" alt="Profile">
+        <div class="title">
+          <span style="font-weight: lighter; color: #7f7f7f"><h1>Benjamin</span> <span style="font-weight: bolder; color: #000000">Congdon</h1></span>
+        </div>
+        <p class="muted">I'm a first year Computer Science student at <u><a href="https://cs.illinois.edu/">UIUC</a></u>.</p>
+        <div class="btn-group">
+          <a href="mailto:bcongdo2@illinois.edu"><button class="btn btn-sm btn-default"  type="button">Email <i class="fa fa-envelope-o"></i></button></a>
+          <a href="https://github.com/benjamincongdon"><button class="btn btn-sm btn-default" type="button">Github <i class="fa fa-github"></i></button></a>
+          <a href="assets/BenjaminCongdonResume.pdf"><button class="btn btn-sm btn-default" type="button">Resume <i class="fa fa-file-text-o"></i></button></a>
+        </div>
+      </div>
+      <div class="col-md-6 about vert-align">
+          <h4><b>>About<</b></h4>
+          <p>I am currently a student at the University of Illinois at Urbana-Champaign,
+            pursuing a Bachelor's degree in Computer Science.</p>
+          <p>Before moving to Illinois, I lived in Redmond, Washington. I attended
+            Inglemoor High School and graduated earning a full <a href= http://www.ibo.org/>International Baccalaureate</a>
+            diploma.</p>
+          <p>In my spare time, I enjoy preparing and performing classical music on Clarinet and Piano.
+          I was a member of the Seattle Youth Symphony Orchestra for 6 years and am
+          now a member of the UIUC Wind Orchestra.</p>
       </div>
     </div>
-
-    <div class="row marketing">
-      <div class="col-lg-6">
-        <h4>Dear reader...</h4>
-        <p>This is still a complete work in progess. <br>Check back in a bit! <i class="fa fa-hand-peace-o"></i></p>
+    <!-- TODO: Add Projects -->
+    <!-- <div class="row">
+      <div class="col-md-2 projects">
+        <h3><b>>Projects<</b></h3>
       </div>
-
-      <div class="col-lg-6">
-
     </div>
-
+    <div class="row">
+      <div class="col-md-3 project-title">
+        Test Title
+      </div>
+      <div class="col-md-8">
+          Additional expanding information.
+      </div>
+    </div> -->
     <footer class="footer">
       <p>&copy; Benjamin Congdon 2015</p>
     </footer>
 
   </div> <!-- /container -->
-
-
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
