@@ -62,9 +62,9 @@ body {
   font-size: 25px;
 }
 .about p {
-  font-size: 16px;
+  font-size: 115%;
   font-weight: lighter;
-  text-indent: 20px;
+  text-indent: 5%;
 }
 
 .vert-align {
@@ -116,8 +116,8 @@ body {
     color: #000000
   }
 }
-@media screen and (min-width: 1000px){
+/*@media screen and (min-width: 1000px){
   .profile{
     max-width:80%;
   }
-}
+}*/
