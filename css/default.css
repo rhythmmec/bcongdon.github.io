@@ -1,9 +1,8 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 70px;
   padding-bottom: 20px;
   font-family: "Raleway";
-
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -110,6 +109,21 @@ body {
 
 .project-date{
   text-align: left;
+}
+
+.benjamin {
+  font-weight: lighter;
+  color: #7f7f7f
+}
+
+.congdon {
+  font-weight: bolder;
+  color: #000000
+}
+
+.by-the-numbers {
+  font-weight: bolder;
+  font-size:20px;
 }
 
 

@@ -1,252 +1,47 @@
-<!doctype html>
-<html>
-<head>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+---
+title: Testing
+---
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+{% include head-layout.html %}
+<script src="js/index.js"></script>
 
-
-  <title>Benjamin Congdon's Personal Website</title>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- Google Analytics Code -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-72102716-1', 'auto');
-    ga('send', 'pageview' );
-
-    </script>
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="headshot col-md-6 col-xs-12 vert-align">
-        <img src="img/profile.png" class="img-responsive img-rounded profile center-block" alt="Profile">
-        <div class="title">
-          <span style="font-weight: lighter; color: #7f7f7f"><h1>Benjamin</span> <span style="font-weight: bolder; color: #000000">Congdon</h1></span>
-        </div>
-        <p class="muted">I'm a first year Computer Science student at <a href="https://cs.illinois.edu/">UIUC</a>.</p>
-        <div class="btn-group social-media-buttons">
-          <a href="mailto:bcongdo2@illinois.edu"><button class="btn btn-sm btn-default"  type="button">Email <i class="fa fa-envelope-o"></i></button></a>
-          <a href="https://github.com/benjamincongdon/Resume/raw/master/BenjaminCongdonResume.pdf"><button class="btn btn-sm btn-default" type="button">Resume <i class="fa fa-file-text-o"></i></button></a>
-          <a href="https://github.com/benjamincongdon"><button class="btn btn-sm btn-default" type="button">Github <i class="fa fa-github"></i></button></a>
-        </div><br>
-        <div class="btn-group social-media-buttons">
-          <a href="https://www.linkedin.com/pub/benjamin-congdon/104/613/169"><button class="btn btn-sm btn-default"  type="button">Linkedin <i class="fa fa-linkedin-square"></i></button></a>
-          <!-- <a href="https://medium.com/@bencongdon"><button class="btn btn-sm btn-default" type="button">Medium <i class="fa fa-medium"></i></button></a> -->
-          <a href="https://twitter.com/benrcongdon"><button class="btn btn-sm btn-default"  type="button">Twitter <i class="fa fa-twitter-square"></i></button></a>
-          
-        </div>
+<div class="container">
+  <div class="row">
+    <!-- Headshot -->
+    <div class="headshot col-md-6 col-xs-12">
+      <img src="img/profile.png" class="img-responsive img-rounded profile center-block" alt="Profile">
+      <div class="title">
+        <h1><span class="benjamin">Benjamin</span> <span class="congdon">Congdon</span></h1>
       </div>
-      <div class="col-md-6 col-xs-12 about vert-align">
-          <h4><b>>About<</b></h4>
-          <p>I am currently a student at the University of Illinois at Urbana-Champaign,
-            pursuing a Bachelor's degree in Computer Science.</p>
-          <p>Before moving to Illinois, I lived in Redmond, Washington. I attended
-            Inglemoor High School and graduated earning a full <a href= http://www.ibo.org/>International Baccalaureate</a>
-            diploma.</p>
-          <p>In my spare time, I enjoy preparing and performing classical music on Clarinet and Piano.
-          I was a member of the Seattle Youth Symphony Orchestra for 6 years and am
-          now a member of the UIUC Wind Orchestra.</p>
+      <p class="muted">I'm a first year Computer Science student at <a href="https://cs.illinois.edu/">UIUC</a>.</p>
+
+      <!-- Social Media Buttons -->
+      <div class="btn-group social-media-buttons">
+        <a href="mailto:bcongdo2@illinois.edu"><button class="btn btn-sm btn-default"  type="button">Email <i class="fa fa-envelope-o"></i></button></a>
+        <a href="https://github.com/benjamincongdon/Resume/raw/master/BenjaminCongdonResume.pdf"><button class="btn btn-sm btn-default" type="button">Resume <i class="fa fa-file-text-o"></i></button></a>
+        <a href="https://github.com/benjamincongdon"><button class="btn btn-sm btn-default" type="button">Github <i class="fa fa-github"></i></button></a>
+      </div><br>
+      <div class="btn-group social-media-buttons">
+        <a href="https://www.linkedin.com/pub/benjamin-congdon/104/613/169"><button class="btn btn-sm btn-default"  type="button"><i class="fa fa-linkedin-square"></i></button></a>
+        <a href="https://medium.com/@bencongdon"><button class="btn btn-sm btn-default" type="button"><i class="fa fa-medium"></i></button></a>
+        <a href="https://twitter.com/benrcongdon"><button class="btn btn-sm btn-default"  type="button"><i class="fa fa-twitter-square"></i></button></a>
+        <a href="https://www.quora.com/profile/Benjamin-Congdon-1"><button class="btn btn-sm btn-default" type="button"><span class="fa"><strong>Q</strong></span></button></a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-2 project-header">
-        <h3><b>>Projects<</b></h3>
-      </div>
+    <div class="col-md-6 col-xs-12 about vert-align">
+        <!-- About -->
+        <h4><b>>About<</b></h4>
+        <p>I am currently a student at the University of Illinois at Urbana-Champaign,
+          pursuing a Bachelor's degree in Computer Science.</p>
+        <p>Before moving to Illinois, I lived in Redmond, Washington. I attended
+          Inglemoor High School and graduated earning a full <a href= http://www.ibo.org/>International Baccalaureate</a>
+          diploma.</p>
+        <p>In my spare time, I enjoy preparing and performing classical music on Clarinet and Piano.
+        I was a member of the Seattle Youth Symphony Orchestra for 6 years and am
+        now a member of the UIUC Wind Orchestra.</p>
     </div>
+  </div>
+  
+</div>
 
-    <!-- TubeSync -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="https://github.com/benjamincongdon/TubeSync">TubeSync</a>
-      </div>
-      <div class="col-md-7">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>OSX menubar app for syncing Youtube Playlists to desktop for offline viewing.</li>
-          <li>UI built in Xcode with Cocoa and Swift. Bridges to Python for downloading using the Youtube-DL module.</li>
-          <li>Focussed on maintaining responsive UI while managing asynchronous downloads.</li>
-        </ul>
-      </div>
-      <div class="col-md-2 project-date">
-        January, 2016 - present
-      </div>
-    </div>
-
-    <!-- Adept -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="https://github.com/Adept196/adept/tree/develop">Adept</a>
-      </div>
-      <div class="col-md-7">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Python 'Infinitely Extensible' RPG game platform created for CS196</li>
-          <li>Worked on implementing continuous integration, unit testing, and modular UI</li>
-          <li>Scripted procedural generation of terrain data</li>
-        </ul>
-      </div>
-      <div class="col-md-2 project-date">
-        August, 2015 - <br>December, 2015
-      </div>
-    </div>
-
-    <!-- Political Heatmap -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="https://github.com/benjamincongdon/PoliticalHeatMap-SIGIR">Political Heatmap (SIGIR)</a>
-      </div>
-      <div class="col-md-6">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Data visualization of Twitter sentiment for current US Presidential Candidates per state</li>
-          <li>Wrote backend python scripts for scraping geotagged tweets and performing sentiment analysis</li>
-          <li>Interfaced with <a href="https://github.com/geduldig/TwitterAPI">TwitterAPI</a> wrapper and <a href = http://www.alchemyapi.com/>AlchemyAPI</a></li>
-          <li>Project for ACM SIGIR (Information Retrieval)</li>
-        </ul>
-      </div>
-      <div class="col-md-3 project-date">
-        September, 2015 - <br>October, 2015
-      </div>
-    </div>
-
-    <!-- Wandr -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="https://github.com/benjamincongdon/Wandr-HuskieHacks">Wandr (HuskieHacks 2015)</a>
-      </div>
-      <div class="col-md-6">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Geofencing application for dementia patients and their caretakers</li>
-          <li>Written in Swift and utilizes Twilio's API</li>
-          <li>Created for the HuskieHacks 2015 hackathon. Won 3rd place overall</li>
-        </ul>
-      </div>
-      <div class="col-md-3 project-date">
-        September, 2015
-      </div>
-    </div>
-
-    <!-- CrowdShout -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="https://github.com/benjamincongdon/Crowdshout">Crowdshout</a>
-      </div>
-      <div class="col-md-6">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Toolset for Twitch streamers to parse realtime chat responses </li>
-          <li>Written in Python </li>
-        </ul>
-      </div>
-      <div class="col-md-3 project-date">
-        August, 2015
-      </div>
-    </div>
-
-    <!-- PONG -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="http://ludumdare.com/compo/minild-58/?action=preview&uid=36045">"It's just Pong"</a>
-      </div>
-      <div class="col-md-6">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Created a tiny Pong clone for Mini Ludum Dare 58</li>
-          <li>Scripted in C# on the Unity3d game engine</li>
-        </ul>
-      </div>
-      <div class="col-md-3 project-date">
-        March, 2015
-      </div>
-    </div>
-
-    <!-- Bitcoin EE -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="assets/SubversiveMiningAttacksEE.pdf">Bitcoin Research & Extended Essay</a>
-      </div>
-      <div class="col-md-6">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Researched the viability of Subversive Mining Attacks on the Bitcoin network</li>
-          <li>Produced a 4,000 word research paper</li>
-        </ul>
-      </div>
-      <div class="col-md-3 project-date">
-        September, 2014 - <br>January, 2015
-      </div>
-    </div>
-
-    <!-- Autism Lifestyle Tracker -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        Autism Lifestyle Tracker
-      </div>
-      <div class="col-md-6">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Built a toolset for caretakers of children with Autism to track important data about care and behavior.</li>
-          <li>Designed and programmed tools for data input and visualization.</li>
-          <li>Written in Java on the Netbeans platform for my IB CS courses' internal assessment; received full marks</li>
-        </ul>
-      </div>
-      <div class="col-md-3 project-date">
-        December 2013 - April 2014
-      </div>
-    </div>
-
-    <!-- Ludum Dare -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=36045">Ludum Dare 29</a>
-      </div>
-      <div class="col-md-6">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Wrote a simple "endless runner"-esque game  in 48 hours based on a dictated theme.</li>
-          <li>Scripted in C# on the Unity3d engine using assets only created during the 48-hour time window.</li>
-          <li>Competed as part of the <a href="http://ludumdare.com/">Ludum Dare</a> game jam</li>
-        </ul>
-      </div>
-      <div class="col-md-3 project-date">
-        April 2014
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-5 project-header">
-        <h3><b>>Other Experience<</b></h3>
-      </div>
-    </div>
-
-    <!-- CS 196 -->
-    <div class="row project">
-      <div class="col-md-3 project-title">
-        <a href="http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=36045">Course Assistant <br>- CS 196</a>
-      </div>
-      <div class="col-md-6">
-        <ul style="list-style-type:circle; padding-left: 5px;">
-          <li>Functioned as a Product Manager of a small group of students for their semester long project.</li>
-          <li>Wrote Python Homework problems with auto-grader test cases.</li>
-        </ul>
-      </div>
-      <div class="col-md-3 project-date">
-        January 2016 - May 2016
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <p>&copy; Benjamin Congdon <script>document.write(new Date().getFullYear())</script></p>
-    </footer>
-
-  </div> <!-- /container -->
-</body>
-</html>
+{% include footer.html %}
