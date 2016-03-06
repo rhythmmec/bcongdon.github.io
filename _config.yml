@@ -14,6 +14,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://benjamincongdon.me" # the base hostname & protocol for your site
 twitter_username: BenRCongdon
 github_username:  benjamincongdon
+medium_username: bencongdon
+quora_username: Benjamin-Congdon-1
 
 # Build settings
 markdown: kramdown
