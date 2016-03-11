@@ -12,3 +12,13 @@
 //         $('.navbar').hide();
 //     }
 // });
+
+$(function() {
+  $('a').click(function() {
+    var href = $(this).attr("href");
+    $('html, body').animate({
+      scrollTop: $(href).offset().top - 80
+    }, 500);
+    return false;
+  });
+});
