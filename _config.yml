@@ -9,7 +9,7 @@
 title: Benjamin Congdon's Personal Website
 email: bcongdo2@illinois.edu
 description: > # this means to ignore newlines until "baseurl:"
-  My personal site.
+  The personal site of Benjamin Congdon.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://benjamincongdon.me" # the base hostname & protocol for your site
 blog_url: "blog"
@@ -20,12 +20,21 @@ quora_username: Benjamin-Congdon-1
 
 # Optional features
 animated:             false
-show_related_posts:   false
+show_related_posts:   true
 show_post_footers:    false
 show_social_icons:    true
+show_sharing_icons:   true
+
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
+
+share_twitter: true
+share_facebook: true
+share_googleplus: true
+share_linkedin: false
+share_reddit: true
+share_hackernews: true
 
 text:
   pagination:
@@ -48,17 +57,6 @@ text:
     related_posts:  'Related Posts'
   index:
     coming_soon: 'Coming soon...'
-  contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
-    ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
 
 # Build settings
 markdown: kramdown
