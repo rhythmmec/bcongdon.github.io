@@ -65,7 +65,8 @@ paginate:     4
 paginate_path: 'blog/page:num'
 sass:
   compressed: true
+  sass_dir: css
+  style:    expanded
 gems:
-  - jekyll-paginate
   - jekyll-sitemap
 exclude: [vendor]

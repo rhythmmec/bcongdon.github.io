@@ -1,0 +1,31 @@
+---
+layout: default
+title: Blog
+---
+
+<link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css" >
+<link rel="stylesheet" type="text/css" href="{{ site.path }}/css/blog.css" >
+
+
+<div class="container">
+  <!-- Projects -->
+  <div class="row">
+    <div class="col-md-12 blog-header">
+      <h2><b>>Blog<</b></h2> (<a href="{{ site.baseurl }}/feed.xml">Feed</a> | <a href="{{ site.baseurl }}/archive">Archive</a>)
+    </div>
+  </div>
+
+<div class="container">
+	{% for post in site.posts %}
+	<hr>
+	<article class='post'>
+	  <h1 class='post-title'>
+	    <a href="{{ site.path }}{{ post.url }}">
+	      {{ post.title }}
+	    </a>
+	  </h1>
+	  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+	  {{ post.content }}
+	</article>
+	{% endfor %}
+</div>
