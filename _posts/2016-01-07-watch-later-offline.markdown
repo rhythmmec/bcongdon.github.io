@@ -3,7 +3,7 @@ layout:     post
 title:      Watch Later, Offline
 date:       2016-01-07 15:31:19
 summary:    Streamlining Offline Youtube Viewing with Youtube-DL and Python
-categories: projects
+categories: 
 ---
 
 I watch a lot of Youtube, and have since I joined the site in 2007.
