@@ -9,13 +9,64 @@
 title: Benjamin Congdon's Personal Website
 email: bcongdo2@illinois.edu
 description: > # this means to ignore newlines until "baseurl:"
-  My personal site.
+  The personal site of Benjamin Congdon.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://benjamincongdon.me" # the base hostname & protocol for your site
+blog_url: "blog"
 twitter_username: BenRCongdon
 github_username:  benjamincongdon
 medium_username: bencongdon
 quora_username: Benjamin-Congdon-1
 
+# Optional features
+animated:             false
+show_related_posts:   true
+show_post_footers:    false
+show_social_icons:    true
+show_sharing_icons:   true
+
+enable_mathjax: false
+extended_fonts: false
+
+share_twitter: true
+share_facebook: true
+share_googleplus: true
+share_linkedin: false
+share_reddit: true
+share_hackernews: true
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+
+
 # Build settings
 markdown: kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+paginate_path: 'blog/page:num'
+sass:
+  compressed: true
+  sass_dir: css
+  style:    expanded
+gems:
+  - jekyll-sitemap
+exclude: [vendor]
