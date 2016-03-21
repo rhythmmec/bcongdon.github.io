@@ -11,7 +11,7 @@ email: bcongdo2@illinois.edu
 description: > # this means to ignore newlines until "baseurl:"
   The personal site of Benjamin Congdon.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://benjamincongdon.me" # the base hostname & protocol for your site
+url: "http://benjamincongdon.me/" # the base hostname & protocol for your site
 blog_url: "blog"
 twitter_username: BenRCongdon
 github_username:  benjamincongdon
