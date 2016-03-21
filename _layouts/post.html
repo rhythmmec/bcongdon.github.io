@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css" >
+<link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css">
+
+<link rel="stylesheet" type="text/css" href="{{ site.path }}/css/blog.css">
+
 <div class="container">
 	<article class='post'>
 	  <h1 class='post-title'>{{ page.title }}</h1>
 	  <div class="post-date">{{ page.date | date: "%b %-d, %Y" }}</div>
 	  {{ content }}
+	  {% include sharing_buttons.html %}
 	</article>
 </div>
