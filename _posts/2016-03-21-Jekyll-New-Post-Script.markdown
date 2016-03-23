@@ -43,6 +43,6 @@ if __name__ == "__main__":
 		file.write(TEMPLATE.format(title, timestamp, categories))
 {% endhighlight %}
 
-Just execute with `python new_post.py` in your `_posts` directory. It'll prompt you for a `title` and `categories` and then save all of that information, allong with the current date/time, into a handly markdown file. 
+Just execute with `python new_post.py` in your `_posts` directory. It'll prompt you for a `title` and `categories` and then save all of that information, along with the current date/time, into a handy markdown file. 
 
-**Neet!**
+**Neat!**

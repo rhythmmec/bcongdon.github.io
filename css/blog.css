@@ -15,3 +15,9 @@ ul.share-buttons li{
 ul.share-buttons img{
   display: inline;
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}

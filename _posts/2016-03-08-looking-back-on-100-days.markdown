@@ -16,10 +16,10 @@ I hoped that by doing something — even an insignificant addition — w
 ## Was this successful?
 
 Well, like many things, yes and no. It was successful in getting me to think about a coding project at least once a day, which was really powerful. Though I wasn’t spending all that much more time coding, I was allocating my time more evenly across my week which lowered the amount of time I had to take to ‘relearn’ my previous code.
-It also allowed me to feel comfortable diversifying the types of coding I was doing. In December, I did the “Advent of Code”, which was a light-hearted daily coding ‘challenge’. I also did a bunch of Project Euler problems, which strengthened my ability to think algorithmically, instead of always being focussed on an end-product.
+It also allowed me to feel comfortable diversifying the types of coding I was doing. In December, I did the “Advent of Code”, which was a light-hearted daily coding ‘challenge’. I also did a bunch of Project Euler problems, which strengthened my ability to think algorithmically, instead of always being focused on an end-product.
 However, I often struggled to think of something small enough in scope, yet substantive to be done in a solid ~30 minute chunk. So, some days my commits were fairly lackluster.
 Changing the formatting of my website, or making syntactic edits shouldn’t count, and I wasn’t really strict enough with myself to refrain from cheating a bit here or there.
-What I was most happy about over this time period was the OSX applet I made, TubeSync. It was a great project because it mapped a lot of the interest that I had in Python scripting to a useable desktop app. Also, it was the first project in several years that I’ve actually slapped a version number on and released as a binary for whomever wants to use it, which was gratifying.
+What I was most happy about over this time period was the OSX applet I made, TubeSync. It was a great project because it mapped a lot of the interest that I had in Python scripting to a usable desktop app. Also, it was the first project in several years that I’ve actually slapped a version number on and released as a binary for whomever wants to use it, which was gratifying.
 
 ## Looking Forward
 For the time being, I’m going to try to maintain the habit of doing something coding-related everyday. I think I’m also going to try to branch into contributing to open-source projects as a way to further diversify what I’m working on.
