@@ -19,7 +19,7 @@ The film is at its best in the tight, claustrophobic scenes wherein the protagon
 
 Though, as I alluded to, *Ex Machina* isn't without its faults. I may be pontificating a bit here, but it really makes no sense that this billionaire tech mogul could simultaneously solve the problems of creating a 'conscious' AI and the physical construction of a believably lifelike humanoid robot. And, that he could do all of that by himself, which is loosely implied.
 
-It's not a terribly hard leap to forget, but I found myself to be rolling my eyes a bit when Caleb - the visitor - asked several technical questions about Ava's - the AI's - natural language processing algorithms when he himself didn't recognize the absurdity of how large a leap this development was.
+It’s not a terribly long mental leap, but I found myself to be rolling my eyes a bit when Caleb — the visitor — asked several technical questions about Ava’s — the AI’s — natural language processing algorithms when he himself didn’t recognize the absurdity of how large a development was.
 
 Taking that as granted, the only other 'problem' I had with the film was it's ending. (**Spoiler Warning!**) I'm not really sure what I was supposed to read into the fact that Ava leaves Caleb in the locked mansion - presumably to die? I liked that it didn't wrap up too cleanly, and Nathan's - tech billionaire - demise was fitting, but it all felt a bit cold. Which I guess was the intended effect, so chalk this up as a success rather than a failing.
 
