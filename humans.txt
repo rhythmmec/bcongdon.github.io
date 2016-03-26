@@ -1,0 +1,10 @@
+---
+layout: null
+---
+/* TEAM */
+Creator: {{ site.name }}
+Contact: {{ site.email }}
+Twitter: @{{ site.twitter_username }}
+
+/* SITE */                         
+Last update: {{ site.time | date: '%F' }}

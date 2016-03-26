@@ -13,7 +13,7 @@ My 'on-the-fly' solution was kludgey. String manipulation to get command sequenc
 
 After a bit of Google-foo, I've found what I believe may be a better solution. The `code` class in Python allows you to emulate features of the Python interpreter, which means you can embed an interpreter session within your project.
 
-As shown in [this](http://stackoverflow.com/a/5597918/2421634) Stack Overflow answer, 6 lines of code will get you a fully functioning interpreter:
+As shown in [this Stack Overflow answer](http://stackoverflow.com/a/5597918/2421634), 6 lines of code will get you a fully functioning interpreter:
 {% highlight python %}
 import readline
 import code

@@ -7,6 +7,7 @@
 
 # Site settings
 title: Benjamin Congdon's Personal Website
+name: Benjamin Congdon
 email: bcongdo2@illinois.edu
 description: > # this means to ignore newlines until "baseurl:"
   The personal site of Benjamin Congdon.
