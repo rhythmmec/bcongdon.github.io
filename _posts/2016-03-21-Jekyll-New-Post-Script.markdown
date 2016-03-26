@@ -30,17 +30,17 @@ categories: {2}
 
 if __name__ == "__main__":
 
-	title = raw_input("Title:\n")
-	categories = raw_input("Categories:\n")
+    title = raw_input("Title:\n")
+    categories = raw_input("Categories:\n")
 
-	timestamp = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
-	datestamp = datetime.today().strftime("%Y-%m-%d")
+    timestamp = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
+    datestamp = datetime.today().strftime("%Y-%m-%d")
 
-	file_name = datestamp + "-" + 
-		"-".join(title.split(" ")) + ".markdown"
-	
-	with open(file_name, "w+") as file:
-		file.write(TEMPLATE.format(title, timestamp, categories))
+    file_name = datestamp + "-" + 
+        "-".join(title.split(" ")) + ".markdown"
+    
+    with open(file_name, "w+") as file:
+        file.write(TEMPLATE.format(title, timestamp, categories))
 {% endhighlight %}
 
 Just execute with `python new_post.py` in your `_posts` directory. It'll prompt you for a `title` and `categories` and then save all of that information, along with the current date/time, into a handy markdown file. 
