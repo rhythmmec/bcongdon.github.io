@@ -43,4 +43,5 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
 exclude: [README.md]

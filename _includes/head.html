@@ -46,12 +46,8 @@
 <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 
-<!-- Meta Description -->
-{% if page.description %}
-<meta name="description" content="{{page.description}}" />
-{% else %}
-<meta name="description" content="{{site.description}}" />
-{% endif %}
-
 <!-- Blog Feed -->
 <link rel="alternate" type="application/atom+xml" title="{{ site.name }} — Feed" href="{{ site.url }}/blog/feed.xml" />
+
+<!-- SEO Tags -->
+{% seo %}

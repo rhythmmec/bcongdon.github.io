@@ -5,7 +5,7 @@ permalink: /music
 description: Music I Enjoy
 ---
 
-#<center> Music </center>
+<h1 style="text-align: center;">Music</h1>
 
 ## Summary
 
@@ -23,7 +23,7 @@ Here is a selection of my favorite pieces with links to performances:
 * [Nocturne in E-flat major, Op. 9, No. 2 (Chopin, Frédéric)](https://www.youtube.com/watch?v=9E6b3swbnWg)
 * [Symphony No. 2 (Hanson, Howard)](https://www.youtube.com/watch?v=FkxBAaME-ag)
 * [Clarinet Concerto in A major, K.622 (Mozart, Wolfgang Amadeus)](https://www.youtube.com/watch?v=o_gm0NCabPs)
-* [Liebesträume, S.541 No. 3(Liszt, Franz)](https://www.youtube.com/watch?v=KpOtuoHL45Y)
+* [Liebesträume, S.541 No. 3 (Liszt, Franz)](https://www.youtube.com/watch?v=KpOtuoHL45Y)
 * [Introduction et Allegro (Ravel, Maurice)](https://www.youtube.com/watch?v=bBm1w8J63mg)
 * [Daphnis et Chloé Suite No.2 (Ravel, Maurice)](https://www.youtube.com/watch?v=amGl9Qmgu7E)
 * [Scheherazade, Op.35 (Rimsky-Korsakov, Nikolay)](https://www.youtube.com/watch?v=SQNymNaTr-Y)
