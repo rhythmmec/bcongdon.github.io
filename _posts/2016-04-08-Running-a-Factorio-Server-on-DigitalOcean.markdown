@@ -2,7 +2,7 @@
 layout:     post
 title:      Running a Factorio Server on DigitalOcean
 date:       2016-04-08 16:14:04
-categories: servers gaming scripts
+tags: servers gaming scripts
 ---
 
 If you haven't yet played [Factorio](http://www.factorio.com/), I think you should. Especially if you have any interest in logistics problems, circuit design, or coding. Sure, you don't *do* any coding or circuit design in Factorio, but the main gameplay loop will have you tackling similar problems.

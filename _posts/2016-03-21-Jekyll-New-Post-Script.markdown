@@ -2,7 +2,7 @@
 layout:     post
 title:      Jekyll 'New Post' Script
 date:       2016-03-21 07:21:17
-categories: python coding scripts
+tags: python coding scripts
 ---
 
 On the blogging platform I've decided to use for the time being, [Jekyll](https://jekyllrb.com/), I found it a tad annoying to create new posts in a timely way.

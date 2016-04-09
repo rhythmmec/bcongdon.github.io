@@ -2,7 +2,7 @@
 layout:     post
 title:      Is Apple going downhill? (2016)
 date:       2016-02-27 15:31:19
-categories: tech quora
+tags: tech quora
 ---
 
 **Let me start this with an anecdote:**
