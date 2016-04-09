@@ -24,11 +24,6 @@ show_sharing_icons:   true
 enable_mathjax: false
 extended_fonts: false
 
-#Tagging
-tag_page_layout: tag_page 
-tag_page_dir: tag    
-tag_permalink_style: pretty
-
 
 # Build settings
 markdown: kramdown
@@ -43,5 +38,4 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll/tagging
 exclude: [README.md]

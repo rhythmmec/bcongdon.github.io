@@ -7,11 +7,14 @@
 //     }
 // },false);
 
-// $(document).ready(function(){
-// 	if (window.scrollY < 400) {
-//         $('.navbar').hide();
-//     }
-// });
+$(window).load(function(){
+	var hash = window.location.hash.substring(1);
+    var href = document.getElementById(hash)
+    $('html, body').animate({
+      scrollTop: $(href).offset().top - 50
+    }, 500);
+    return false;
+});
 
 $(function() {
   $('a').click(function() {
