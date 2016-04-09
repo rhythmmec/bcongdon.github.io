@@ -2,7 +2,7 @@
 layout:     post
 title:      Why I'm not buying into first generation VR
 date:       2016-04-05 20:35:19
-tags: vr gaming tech
+tags:       vr gaming tech
 ---
 
 I've been more-or-less enamored with VR tech since I first tried the Oculus DK2 at PAX Prime in 2013. The experience, while not "life-changing" felt like a big step forward in Human-Computer interfaces (playing [EVE Valkyrie](https://www.evevalkyrie.com/) in VR was really freaking cool).

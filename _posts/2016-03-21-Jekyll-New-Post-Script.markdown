@@ -2,7 +2,7 @@
 layout:     post
 title:      Jekyll 'New Post' Script
 date:       2016-03-21 07:21:17
-tags: python coding scripts
+tags:       python coding scripts
 ---
 
 On the blogging platform I've decided to use for the time being, [Jekyll](https://jekyllrb.com/), I found it a tad annoying to create new posts in a timely way.
@@ -23,7 +23,7 @@ TEMPLATE = """\
 layout:     post
 title:      {0}
 date:       {1}
-categories: {2}
+tags:       {2}
 ---
 
 """
@@ -46,3 +46,7 @@ if __name__ == "__main__":
 Just execute with `python new_post.py` in your `_posts` directory. It'll prompt you for a `title` and `categories` and then save all of that information, along with the current date/time, into a handy markdown file. 
 
 **Neat!**
+
+---
+
+*Update: Changed `categories` to `tags` (4/8/16)*

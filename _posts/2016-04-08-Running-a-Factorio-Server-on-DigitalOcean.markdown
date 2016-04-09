@@ -2,14 +2,14 @@
 layout:     post
 title:      Running a Factorio Server on DigitalOcean
 date:       2016-04-08 16:14:04
-tags: servers gaming scripts
+tags:       servers gaming scripts
 ---
 
 If you haven't yet played [Factorio](http://www.factorio.com/), I think you should. Especially if you have any interest in logistics problems, circuit design, or coding. Sure, you don't *do* any coding or circuit design in Factorio, but the main gameplay loop will have you tackling similar problems.
 
 <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/DR01YdFtWFI" frameborder="0" allowfullscreen></iframe>
 <br>
-One of the most fun aspects of Factorio is that it now has a multiplayer mode. Friends = fun! However, sometimes peer-to-peer connections can be perilous or impossible - if you're not on the same network - and it can be nice to have a persistant server to allow your friends to play online while you're offline and *vice versa*.
+One of the most fun aspects of Factorio is that it now has a multiplayer mode. Friends = fun! However, sometimes peer-to-peer connections can be perilous or impossible - if you're not on the same network - and it can be nice to have a persistent server to allow your friends to play online while you're offline and *vice versa*.
 
 Enter DigitalOcean[^1]. For ~$5 a month, you can have your own self-hosted Factorio server that can handle around ~5 concurrent players without and problems.
 

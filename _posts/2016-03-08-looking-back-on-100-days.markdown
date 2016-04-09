@@ -2,8 +2,7 @@
 layout:     post
 title:      Looking back on 100 days of Coding Everyday
 date:       2016-03-08 15:31:19
-summary:    
-tags: coding
+tags:       coding
 ---
 
 Around late November, 2015, I made the somewhat arbitrary decision to commit something to Github every day. I’ve stuck with that habit for ~100 days now, which I think merits a bit of reflection as to how it’s affected my workflow and coding habits.

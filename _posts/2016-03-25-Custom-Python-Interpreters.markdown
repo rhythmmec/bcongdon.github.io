@@ -2,7 +2,7 @@
 layout:     post
 title:      Custom Python Interpreters
 date:       2016-03-25 21:16:46
-tags: coding python
+tags:       coding python
 ---
 
 Recently, I was creating a command line application for a [Project-based coding 'interview'](http://ejohn.org/blog/project-based-interviews/). I wanted the application to have a degree of interactivity, but for various reasons, I couldn't easily keep a file-based save state of the application, which would allow me to use some of the `CLI` modules that Python has.

@@ -2,7 +2,7 @@
 layout:     post
 title:      Ex Machina (2015)
 date:       2016-03-22 21:09:19
-tags: movies
+tags:       movies
 ---
 
 Over the weekend, on the plane from Chicago to Seattle, I watched *Ex Machina*, a film that I'd been meaning to see since it got a bunch of press in the Oscar season.
