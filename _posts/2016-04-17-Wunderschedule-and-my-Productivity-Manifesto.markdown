@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Wunderschedule and My Productiviy Manifesto
+title:      Wunderschedule and My Productivity Manifesto
 date:       2016-04-17 19:49:06
 tags:       nodejs coding productivity raspberrypi
 ---
@@ -21,7 +21,7 @@ And so I stuck with Wunderlist.
 
 Sometime in the past few months, as occasionally happens, my productivity pendulum swung way to one side and suddenly I'd have something absurd like *18* tasks for a given weekday that were just repeated tasks - not even specific to that particular day. And there was again a tax on my brain as I'd think more about optimally prioritizing these dozens of todos instead of, you know, actually doing them.
 
-To start out, I systematically went through and deleted the 'nagging' tasks that I literally would do by default every day, but had added a todo to feel 'accomplished'. Then, I combined tasks that I had granulated into several 'substeps' into one tasks. This cut out a *lot* of the bulk crap todos, but still left something to be desired.
+To start out, I systematically went through and deleted the 'nagging' tasks that I literally would do by default every day, but had added a todo to feel 'accomplished'. Then, I combined tasks that I had granulated into several 'sub steps' into one tasks. This cut out a *lot* of the bulk crap todos, but still left something to be desired.
 
 The core problem still was this: I'd look at a list of things I had to do throughout the day when I woke up (6am) and see things that I wouldn't be able to accomplish until late in the afternoon. (i.e. I could only work on homework *after* I'd been to that day's lecture). So that was frustrating. I'm an 'inbox zero' type of guy, so to have things sitting on my list that I *cannot* accomplish is an aggravation of Sisyphean proportions.
 
