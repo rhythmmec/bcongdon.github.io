@@ -2,7 +2,7 @@
 layout:     post
 title:      "Optimizing Personal Websites: An Analysis of the Hackathon Hackers Website List"
 date:       2016-05-01 14:00:00
-tags:       python dataviz
+tags:       dataviz web
 ---
 
 I spent a bunch of time setting up my personal website early last Fall. Not owning a domain, I checked the availability of a bunch of URLs, and eventually settled on [benjamincongdon.me](http://benjamincongdon.me). A bit verbose, but it serves the job. I would have preferred 'bencongdon' or 'bcongdon', etc. but, being late to the party, all of those domains were taken.
