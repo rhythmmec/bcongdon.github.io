@@ -16,7 +16,7 @@ Enter DigitalOcean[^1]. For ~$5 a month, you can have your own self-hosted Facto
 **Let's get started.**
 
 ## Setting up your Droplet
-1. Make an account on [DigitalOcean](digitalocean.com) and add your payment details to be able to create droplets[^2].
+1. Make an account on [DigitalOcean](https://www.digitalocean.com/) and add your payment details to be able to create droplets[^2].
 2. Go to your "Droplets" page and click `Create a New Droplet`.
 3. Select `Ubuntu 14.04` as your Droplet image. 
 4. Select the `$5 / month` tier for your Droplet size.

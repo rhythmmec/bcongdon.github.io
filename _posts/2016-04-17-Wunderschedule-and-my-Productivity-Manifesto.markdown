@@ -34,7 +34,7 @@ And thus the idea of Wunderschedule was fully formed and two-faced:
 
 Wunderschedule could have easily been a Python script, but I wanted to step out of my comfort zone. Basically, I used it as an excuse to learn NodeJS.
 
-Learning NodeJS turned out to be as much learning the ecosystem as learning Javascript - which I already was familiar with. For example, there are multiple Wunderlist API wrappers hosted on npm, but they were all inexplicably broken in one way or another. So, I had to wrap the API myself. Not a big deal, and hints from [Wunderline](http://www.wunderline.rocks/) helped a lot.
+Learning NodeJS turned out to be as much learning the ecosystem as learning Javascript - which I already was familiar with. For example, there are multiple Wunderlist API wrappers hosted on npm, but they were all inexplicably broken in one way or another. So, I had to wrap the API myself. Not a big deal, and hints from [Wunderline](https://www.npmjs.com/package/wunderline) helped a lot.
 
 I used [Configstore](https://www.npmjs.com/package/configstore) and [Commander](https://www.npmjs.com/package/commander) to make saving credentials and CLI options easier. I also learned that NodeJS allows you to specify binaries in `package.json` which allows you to alias commands to `PATH`. So, I could do the simple npm install call then run `wunderschedule` as a standalone command rather than having to run `node wunderschedule.js` in the correct directory. Cool!
 
