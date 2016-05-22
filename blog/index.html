@@ -20,8 +20,10 @@ description: Benjamin Congdon's Blog
 	    </a>
 	  </h1>
 	  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-	  {{ post.content }}
-
+	  {{ post.content | split:'<!--break-->' | first }}
+	  {% if post.content contains '<!--break-->' %}
+      	<br><br><a href="{{ post.url }}">Read more...</a>
+   	  {% endif %}
 	  {% if loopindex <= 14 and loopindex != site.posts.size - 1 %}
 	  <hr>
 	  {% endif %}

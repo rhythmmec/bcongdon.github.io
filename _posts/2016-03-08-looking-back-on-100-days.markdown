@@ -11,7 +11,7 @@ Around late November, 2015, I made the somewhat arbitrary decision to commit som
 I decided to go on a ‘code everyday’ regimen to increase the quantity of code I write, and the diversity of my projects. Before this, I had a cycle of feeling the desire to work on a project, or get something really substantive down in code, but then not having an in-progress project to contribute to. Starting is very often the hardest part, and without having a lot of ‘kettles in the fire’, I found it difficult to produce something tangible in half an hour.
 I’d spend that 30 minutes of coding time I could cut out of my day researching APIs or Frameworks, instead of actually creating something. To be fair, that’s not always wasted time. But, it was discouraging to go a week or two without feeling a sense of progression in at least one of my projects.
 I hoped that by doing something — even an insignificant addition — would lower the bar to ‘getting stuff done’ and would allow me to branch out a bit more in terms of the types of projects I was working on. Many of my pre-November projects were mostly scripts, which reflected where I was as a programmer. Competent enough to write one-time procedurals, but still uncomfortable with establishing a more robust project.
-
+<!--break-->
 ## Was this successful?
 
 Well, like many things, yes and no. It was successful in getting me to think about a coding project at least once a day, which was really powerful. Though I wasn’t spending all that much more time coding, I was allocating my time more evenly across my week which lowered the amount of time I had to take to ‘relearn’ my previous code.

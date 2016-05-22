@@ -10,7 +10,7 @@ Over the weekend, on the plane from Chicago to Seattle, I watched *Ex Machina*, 
 *Ex Machina* describes the 'Turing Test' trial of a newly invented AI wherein a lowly code monkey visits his Sergey-Brin-*esque* boss to interview the feminine robot. It first feels like the whole thing might play out a bit like *Her*, but the filmmakers do a good job of keeping the plot just a step or two ahead of your intuitions.
 
 ![poster](https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg){: .center-image }
-
+<!--break-->
 Some overly necessary suspension-of-disbelief notwithstanding, I really enjoyed this film. The cinematography really hearkens back to a more understated style of science fiction, not unlike favorites of mine: *[2001: A Space Odyssey](http://www.imdb.com/title/tt0062622/?ref_=nv_sr_1)*, *[Moon](http://www.imdb.com/title/tt1182345/)* and *[The Andromeda Strain](http://www.imdb.com/title/tt0066769/?ref_=nv_sr_1)*, among others. 
 
 In a scifi market saturated with thrillers like *The Martian* and *Interstellar*, I found it immensely refreshing to watch a scifi film that focused on the particulars of an encounter with technology rather than a 120 minute roller-coaster of a plot. 

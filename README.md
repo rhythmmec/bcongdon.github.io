@@ -1,4 +1,5 @@
 # BenjaminCongdon.me
+[![Build Status](https://travis-ci.org/benjamincongdon/benjamincongdon.github.io.svg?branch=master)](https://travis-ci.org/benjamincongdon/benjamincongdon.github.io)
 My personal website for listing projects that I've work on / contributed to. Also hosts my [blog](http://benjamincongdon.me/blog), which I try to keep reasonably up-to-date.
 
 ## Built with:
@@ -7,6 +8,9 @@ My personal website for listing projects that I've work on / contributed to. Als
 * Kramdown
 * Bootstrap + jQuery
 * Github (hosting)
+
+## Tested with:
+* [html-proofer](https://github.com/gjtorikian/html-proofer)
 
 ## Usage
 1. [Install Jekyll](https://jekyllrb.com/docs/installation/) if you don't already have it.

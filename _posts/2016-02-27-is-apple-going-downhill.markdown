@@ -12,7 +12,7 @@ tags:       tech quora Apple
 
 I argue that your position on Apple going "downhill" will largely correlate to your reaction to this sequence of events.
 First of all, let's realize that the Apple of 5 years ago would **not** be giving an open beta for their iOS platform and *certainly* would **not** change a key design function of their platform based on user feedback. The Apple of 5 years ago was solely focused on their 'design vision' and would frequently 'mess things up' from a user perspective to lay the groundwork for future developments.
-
+<!--break-->
 Remember how hesitant they were to change the size of the iPhone? Remember how standardized the product SKU's were for Apple's devices until recently?
 
 So in that sense, yes. Apple has lost their air of being a monolithic, hyper-focused company. However, let's not forget that this style was often to their detriment. Apple TV was hot garbage until they allowed 3rd party apps on it, as was the iPhone. So there are benefits to bend to the will of the consumer / developer.
