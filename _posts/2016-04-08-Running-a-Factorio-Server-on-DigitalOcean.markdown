@@ -12,7 +12,7 @@ If you haven't yet played [Factorio](http://www.factorio.com/), I think you shou
 One of the most fun aspects of Factorio is that it now has a multiplayer mode. Friends = fun! However, sometimes peer-to-peer connections can be perilous or impossible - if you're not on the same network - and it can be nice to have a persistent server to allow your friends to play online while you're offline and *vice versa*.
 
 Enter DigitalOcean[^1]. For ~$5 a month, you can have your own self-hosted Factorio server that can handle around ~5 concurrent players without and problems.
-<!--break-->
+
 **Let's get started.**
 
 ## Setting up your Droplet

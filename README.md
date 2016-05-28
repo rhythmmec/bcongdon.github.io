@@ -1,6 +1,7 @@
 # BenjaminCongdon.me
-[![Build Status](https://travis-ci.org/benjamincongdon/benjamincongdon.github.io.svg?branch=master)](https://travis-ci.org/benjamincongdon/benjamincongdon.github.io)
-My personal website for listing projects that I've work on / contributed to. Also hosts my [blog](http://benjamincongdon.me/blog), which I try to keep reasonably up-to-date.
+[![Build Status](https://travis-ci.org/bcongdon/bcongdon.github.io.svg?branch=master)](https://travis-ci.org/bcongdon/bcongdon.github.io)
+
+:house: My personal website for listing projects that I've work on / contributed to. Also hosts my [blog](http://benjamincongdon.me/blog), which I try to keep reasonably up-to-date.
 
 ## Built with:
 * Jekyll

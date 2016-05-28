@@ -5,7 +5,7 @@ date:       2016-04-17 19:49:06
 tags:       nodejs coding productivity raspberrypi
 ---
 
-Recently, I finished the first version of a NodeJS module that's been in the back of my mind for some time: [Wunderschedule](https://github.com/benjamincongdon/WunderSchedule). The module itself is (in my use case) very useful, and has also given a new purpose for my rapidly expanding collection of Raspberry Pis. 
+Recently, I finished the first version of a NodeJS module that's been in the back of my mind for some time: [Wunderschedule](https://github.com/{{ site.github_username }}/WunderSchedule). The module itself is (in my use case) very useful, and has also given a new purpose for my rapidly expanding collection of Raspberry Pis. 
 
 ## Why I switched to Wunderlist
 
