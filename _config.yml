@@ -2,7 +2,7 @@
 title: Benjamin Congdon's Personal Website
 name: Benjamin Congdon
 email: bcongdo2@illinois.edu
-description: > # this means to ignore newlines until "baseurl:"
+description: > 
   The personal site of Benjamin Congdon.
 baseurl: ""
 url: "http://benjamincongdon.me"
@@ -38,4 +38,4 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-exclude: [README.md, vendor]
+exclude: [README.md]
