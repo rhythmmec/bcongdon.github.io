@@ -87,7 +87,7 @@ There's definitely an aspect of 'less is more' in data visualization, so as to l
 
 Additionally, the lack of interactivity in matplotlib visualizations really limits what you can do with the medium, which is why I've come to see it more as a prototyping tool for something more advanced in, say, D3. 
 
-If you want to see any of the source of this project, or look at higher res renders of these graphs, everything - including the Jupyter notebook - is hosted [here](https://github.com/bcongdon/Data-Science-Projects/tree/master/sgdq2016) on my Github.
+If you want to see any of the source of this project, or look at higher res renders of these graphs, everything - including the Jupyter notebook - is hosted [here](https://github.com/bcongdon/sgdq-2016-schedule-analysis) on my Github.
 
 ## On the Horizon
 
