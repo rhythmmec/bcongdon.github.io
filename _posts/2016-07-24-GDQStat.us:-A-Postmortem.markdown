@@ -22,6 +22,7 @@ What I really wanted to sink my teeth into (and, consequently, what I spent the 
 But I digress. Essentially, I was going to make a slightly teched up version of Alligatr's graphs, just with a more sane datastore (he used an updating static JSON) and perhaps some realtime elements.
 
 ## What I ended up making
+
 ### The Database
 I decided early on to use [Firebase](https://firebase.google.com/) as my realtime database. It had support for update webhooks, which made it easy to send data updates to the client every minute. It also meant that I didn't have to deal with the database hosting myself.
 
@@ -33,6 +34,11 @@ So, I ended up switching to a caching model, wherein Firebase was still my autho
 
 I spent a crazy amount of time on the main graph displayed front-and-center on the home page. Initially, it took a lot of time just to get it working - as I said, D3 has a large learning curve. Once I got a handle on it, I was able to add some cool features, like the ability to switch data sets on the fly.
 
+![main graph](/img/sgdq-2016-postmortem/main_graph.png)
+
+> The Main Graph
+
+
 I also added realtime data updates, so that the graph would continuously rerender as new data came in via the webhooks.
 
 However, out of everything I made, the JS that runs the main visualization is probably the messiest of all of it. Lots of No-No's scattered throughout, like poor use of globally scoped variables.
@@ -40,6 +46,10 @@ However, out of everything I made, the JS that runs the main visualization is pr
 ### The Front End
 
 I ended up getting some other cool bits and bobs into the site as well. In particular, I really like the dynamic odometer elements that show you current / aggregated statistics. I used odometer.js for this, and personally I think the animations are awesome.
+
+![odometers](/img/sgdq-2016-postmortem/odometers.png)
+
+> Mmmm... Odometers...
 
 I'm not particularly happy with the games schedule table - especially with how it links to the main graph. It has some weird behavior. But it works, mostly.
 
@@ -62,7 +72,11 @@ In summary, the feature creep on the project was, in a word, *massive*. By the e
 
 I eventually found it *necessary* to add basic health check notifications, so as to be notified when one of the trackers went down. So, I built a basic script that would ping my phone via [Twilio](https://www.twilio.com/) whenever a data source stopped producing data.
 
-Yeah, I super over-engineered it. There's really no way to argue against that, but it kept my free time occupied for the better part of two months, and so I'd call that a success. (Consequently, I also learned an insane amount throughout this whole process.
+Yeah, I super over-engineered it. There's really no way to argue against that, but it kept my free time occupied for the better part of two months, and so I'd call that a success. (Consequently, I also learned an insane amount throughout this whole process.)
+
+![main graph](/img/sgdq-2016-postmortem/github_activity.png)
+
+> I did a fair number of commits on this project...
 
 ## How it performed during SGDQ2016
 
