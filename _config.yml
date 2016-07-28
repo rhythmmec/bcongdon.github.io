@@ -38,4 +38,9 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 exclude: [README.md, vendor]
