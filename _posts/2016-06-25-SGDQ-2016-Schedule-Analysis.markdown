@@ -12,7 +12,7 @@ Being a Python nerd, I started my data visualization with an Jupyter notebook an
 
 ## Scraping the Data
 
-To actually get all the game, platform, and runtime data, I first used [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) to scrape the schedule off the [SGDQ website](https://gamesdonequick.com/schedule). This was simple enough: I just had to blacklist some of the non-game entries on the schedule (like setup times) and I had a decent list of all the games.
+To actually get all the game, platform, and runtime data, I first used [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) to scrape the schedule off the [SGDQ website](https://web.archive.org/web/20160711025633/https://gamesdonequick.com/schedule). This was simple enough: I just had to blacklist some of the non-game entries on the schedule (like setup times) and I had a decent list of all the games.
 
 What then came was a bit annoying; I wanted to get a record of all the platforms each game was released on, and decided on using the [GiantBomb](http://www.giantbomb.com/api/) game catalog API. However, all I had were the names of the games as listed by SGDQ, which weren't always a perfect match for GiantBomb. So, I had to do a rather tedious amount of manual conditioning of the data.
 
