@@ -22,7 +22,7 @@ description: Benjamin Congdon's Blog
 	  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
 	  {{ post.content | split:'<!--break-->' | first }}
 	  {% if post.content contains '<!--break-->' %}
-      	<br><br><a href="{{ site.path }}{{ post.url }}">Read more...</a>
+      	<br><a href="{{ site.path }}{{ post.url }}">Read more...</a>
    	  {% endif %}
 	  {% if loopindex <= 14 and loopindex != site.posts.size - 1 %}
 	  <hr>
