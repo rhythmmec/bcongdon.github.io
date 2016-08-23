@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      Internship 2016
+date:       2016-08-23 17:18:46
+tags:       coding ruby internship
+---
+
+For the past few months, I had the opportunity to be a Systems Engineering intern at [Smartsheet](https://www.smartsheet.com). It was quite an enriching experience - I learned an indescribable amount in my summer there.
+<!--break-->
+
+### The Project
+
+Over the summer, I developed an orchestration toolset for the [F5 BIG-IP](https://f5.com/products/big-ip) load balancers that Smartsheet uses in it's datacenters. Essentially, the goal of the project was to be able to store the complete configuration of a load balancer in something that could be internally version-controlled, like YAML, and apply/diff that configuration against the load balancing server when updates or rebuilds are desired.
+
+The Web GUI interface for F5's load balancers is pretty difficult & slow to use, which drove the need for a tool like this. Expanding needs for more complicated server configurations and a growing operations team meant that naively adding things to the server's configuration was potentially risky, and could lead to a production outage if managed incorrectly.
+
+Fortunately, F5 provides a REST interface through which pretty much all of the configuration dials and knobs of the load balancers can be controlled. So, it became an API interfacing challenge, which wasn't all that difficult.
+
+We further developed the tool from something only suitable for internal use to something that (could) be used in more generalized settings. This involved some work with creating documentation, more generalized settings configurations, and some usability studies to make the tool more intuitive to use. I'd never brought a project to a point of polish like this before, and while it is by no means perfect, I'm happy at the state to which I was able to bring it this summer.
+
+### Coding in Ruby
+
+The Smartsheet Operations language *de jure* was Ruby, which I'd never worked with before, but I took this summer as an opportunity to get more familiar with it.
+
+I picked up the idioms of Ruby pretty quickly. While some 'best practice' type things weren't immediately apparent to me, like module name spacing, I really enjoyed most of the language features of Ruby, and am glad to be opened up to being able to write plugins for some of the great OSS projects written in Ruby (Sinatra, Jekyll, and Rake, to name just a select few).
+
+After my summer internship, I'm a bit conflicted about Ruby. I love it's sleek, expressive syntax. It's [enumerables](http://ruby-doc.org/core-2.3.1/Enumerable.html) are awesome, and I really like the way it handles blocks and procs. Furthermore, it's import system - though initially confusing - is less restrictive than Python's and doesn't feel the need to hold your hand as much.
+
+Where I think it falls flat is in the community around *vanilla* Ruby. So much of Ruby seems to be Rails centric, to the point where various gems I tried to use had undocumented [ActiveSupport](https://rubygems.org/gems/activesupport/versions/5.0.0.1) (Rails extension) dependencies. Not terrible, but I'd rather not drag in the entire ActiveSupport gem for a small nicety like the `3.days.ago` date decorators.
+
+### Final Thoughts
+
+Learning new languages is fun and creating tools that people actually use is rewarding. Developing something that solves a problem doesn't necessarily mean making an app / website. Writing tools for developers is awesome, because it means you're bettering the workflow of your peers, and in turn advancing the discipline. Awesome!
+
+If you're at all interested, we open-sourced the whole project as [f5tools](https://github.com/smartsheet/f5tools) on Github, so feel free to check it out!
