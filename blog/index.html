@@ -15,16 +15,18 @@ description: Benjamin Congdon's Blog
 	{% assign loopindex = forloop.index %}
 	<article class='post'>
 	  <h1 class='post-title'>
-	    <a href="{{ site.path }}{{ post.url }}">
+	    <a class='post-title-link' href="{{ site.path }}{{ post.url }}">
 	      {{ post.title }}
 	    </a>
 	  </h1>
-	  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
 	  {{ post.content | split:'<!--break-->' | first }}
 	  {% if post.content contains '<!--break-->' %}
-      	<br><a href="{{ site.path }}{{ post.url }}">Read more...</a>
+      	<a class="post-read-more" href="{{ site.path }}{{ post.url }}">»</a>
    	  {% endif %}
-	  {% if loopindex <= 14 and loopindex != site.posts.size - 1 %}
+   	  <div class="post-meta-data row">
+   	  	<div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+   	  </div>
+	  {% if loopindex < 14 and loopindex != site.posts.size - 1 %}
 	  <hr>
 	  {% endif %}
 	</article>

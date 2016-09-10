@@ -45,7 +45,7 @@ body {
 /* Custom page header */
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #313131;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -101,7 +101,7 @@ body {
 /* Main marketing message and sign up button */
 .headshot {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  /*border-bottom: 1px solid #e5e5e5;*/
   padding-bottom: 30px
 }
 
@@ -114,7 +114,6 @@ body {
 }
 .profile {
   max-width: 40%;
-  border: 2px solid #000000;
 }
 
 .project-date{
