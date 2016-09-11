@@ -63,4 +63,4 @@ To me, this was an interesting project. Matplotlab and iPython/Jupyter make simp
 
 ---
 
-If you're interested in seeing the source code of my analysis, you can check the Jupyter notebook out on my Github [here](https://github.com/{{ site.github_username }}Data-Science-Projects/blob/master/hackathon_hackers_analysis/Hackathon%20Hackers%20Sites.ipynb).
+If you're interested in seeing the source code of my analysis, you can check the Jupyter notebook out on my Github [here](https://github.com/{{ site.github_username }}/Data-Science-Projects/blob/master/hackathon_hackers_analysis/Hackathon%20Hackers%20Sites.ipynb).
