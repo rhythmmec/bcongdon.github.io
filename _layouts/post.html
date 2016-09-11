@@ -8,12 +8,6 @@ layout: default
 	<article class='post'>
 	  <h1 class='post-title'>{{ page.title }}</h1>
 
-	  <!-- <div class="post-date" style="margin-bottom: 0px">{{ page.date | date: "%b %-d, %Y" }}</div>
-      <ul class="list-inline" style="margin-bottom: 1rem; padding-left: 0px">
-            {% for tag in page.tags %}
-            <li><a href="/tags/#{{ tag }}" class="tag" style="font-size: 12px"><i>{{ tag }}</i></a></li>
-            {% endfor %}
-      </ul> -->
 	    {{ content }}
       
       {% include post_meta.html %}  
