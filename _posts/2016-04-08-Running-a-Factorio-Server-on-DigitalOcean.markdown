@@ -5,7 +5,7 @@ date:       2016-04-08 16:14:04
 tags:       servers gaming scripts
 ---
 
-If you haven't yet played [Factorio](http://www.factorio.com/), I think you should. Especially if you have any interest in logistics problems, circuit design, or coding. Sure, you don't *do* any coding or circuit design in Factorio, but the main gameplay loop will have you tackling similar problems.
+If you haven't yet played [Factorio](http://www.factorio.com/), I think you should. Especially if you have any interest in logistics problems, circuit design, or coding. Sure, you don't *do* any coding or circuit design in Factorio, but the main gameplay loop will have you tackling similar problems.<!--break-->
 
 <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/DR01YdFtWFI" frameborder="0" allowfullscreen></iframe>
 <br>

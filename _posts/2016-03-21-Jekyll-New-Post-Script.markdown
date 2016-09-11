@@ -11,8 +11,8 @@ It's not difficult to create a `.markdown` file and copy in a template, but the 
 
 This seamed like an excellent place for a Python script to step in!
 
-So, I wrote the following tiny snippet of code, and now I can create a new markdown file in a few seconds flat!
-<!--break-->
+So, I wrote the following tiny snippet of code, and now I can create a new markdown file in a few seconds flat!<!--break-->
+
 {% highlight python %}
 #new_post.py
 

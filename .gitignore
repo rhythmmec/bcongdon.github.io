@@ -2,3 +2,4 @@
 _site
 Gemfile.lock
 new_post.py
+.jekyll-metadata

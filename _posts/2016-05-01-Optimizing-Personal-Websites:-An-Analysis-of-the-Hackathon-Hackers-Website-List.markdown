@@ -9,8 +9,8 @@ I spent a bunch of time setting up my personal website early last Fall. Not owni
 
 During this time, I developed a habit of checking the [Hackathon Hackers site list](https://github.com/HackathonHackers/personal-sites) and randomly clicking on people's sites to get inspiration for my own. Some of these sites are amazing works of front-end art, others are clearly templates - or worse, offline. Not being great at visual design, I strove for the middle-of-the-road: something simple, lightweight, and presentable.
 
-Recently, I thought it would be a fun 'data science' project to look at this cohort of websites. I'm always looking for an interesting dataset to throw at Excel or, as of late, [matplotlib](http://matplotlib.org/). It's worth disclaiming that my methods are by no means scientific, but nevertheless, they show some interesting results. Here's what I found:
-<!--break-->
+Recently, I thought it would be a fun 'data science' project to look at this cohort of websites. I'm always looking for an interesting dataset to throw at Excel or, as of late, [matplotlib](http://matplotlib.org/). It's worth disclaiming that my methods are by no means scientific, but nevertheless, they show some interesting results. Here's what I found:<!--break-->
+
 ## Site Availability
 Right out of the gate, I thought it would be interesting to see just how many of the sites on the list were inaccessible. Surprisingly, about a quarter of the ~400 listed sites just couldn't be reached. Tsk, tsk...
 ![availability](/img/hh-graphs/availability.png)
@@ -63,4 +63,4 @@ To me, this was an interesting project. Matplotlab and iPython/Jupyter make simp
 
 ---
 
-If you're interested in seeing the source code of my analysis, you can check the Jupyter notebook out on my Github [here](https://github.com/{{ site.github_username }}/Data-Science-Projects/blob/master/Hackathon%20Hackers%20Sites.ipynb).
+If you're interested in seeing the source code of my analysis, you can check the Jupyter notebook out on my Github [here](https://github.com/{{ site.github_username }}/Data-Science-Projects/blob/master/hackathon_hackers_analysis/Hackathon%20Hackers%20Sites.ipynb).

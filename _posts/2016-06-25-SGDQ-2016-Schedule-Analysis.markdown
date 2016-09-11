@@ -7,8 +7,7 @@ tags:       python gaming dataviz
 
 Over the past few years, [GamesDoneQuick](https://gamesdonequick.com/) has become quite a livestream phenomena as a biannual charity livestreams of games from throughout the history of video games. I love watching these streams, and because of the unique dataset, was interested in the relationships between games, platforms, release years, and the current speedrun 'time-to-beat'. With SummerGamesDoneQuick 2016 rapidly approaching, I decided it'd be a good time to make some visualizations.
 
-Being a Python nerd, I started my data visualization with an Jupyter notebook and a generous application of [matplotlib](http://matplotlib.org/).
-<!--break-->
+Being a Python nerd, I started my data visualization with an Jupyter notebook and a generous application of [matplotlib](http://matplotlib.org/).<!--break-->
 
 ## Scraping the Data
 

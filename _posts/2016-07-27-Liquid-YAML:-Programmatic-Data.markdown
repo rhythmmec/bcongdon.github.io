@@ -7,8 +7,7 @@ tags:       ruby markdown yaml coding
 
 I've been working on a configuration management project recently, and as a consequence have been working regularly with YAML. It's a very capable markdown language, but it gets unwieldy very quickly.
 
-I've come up with a hacky - yet, in my mind, pretty awesome - 'solution' to cut down on YAML bulk and allow for some pretty surprising templatization of data.
-<!--break-->
+I've come up with a hacky - yet, in my mind, pretty awesome - 'solution' to cut down on YAML bulk and allow for some pretty surprising templatization of data.<!--break-->
 
 First, the problem: Say, for example, I wish to describe a simple object set of 'cats'. Suppose I have 5 cats, which map to 5 food dishes. Here would by my YAML:
 
