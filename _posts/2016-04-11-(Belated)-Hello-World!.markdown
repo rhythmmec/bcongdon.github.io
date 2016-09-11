@@ -5,7 +5,7 @@ date:       2016-04-11 07:51:41
 tags:       meta
 ---
 
-Until this point, I don't think I've really stated the intent / purpose of this blog. I'll try not to philosophize too much on this point, but I think it would be interesting to record my intentions going into this writing project.
+Until this point, I don't think I've really stated the intent / purpose of this blog. I'll try not to philosophize too much on this point, but I think it would be interesting to record my intentions going into this writing project.<!--break-->
 
 When I was in High School, I did a *lot* of writing. Between papers, annotated study guides, and various other projects I was probably writing a good ~1-3k words a week. And I like writing. I'm not particularly accomplished or adept in my composition skills, but I do have a fondness for it that I missed when I moved up to College.
 

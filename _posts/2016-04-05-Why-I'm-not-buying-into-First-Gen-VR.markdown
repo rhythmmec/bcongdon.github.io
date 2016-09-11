@@ -7,8 +7,8 @@ tags:       vr gaming tech
 
 I've been more-or-less enamored with VR tech since I first tried the Oculus DK2 at PAX Prime in 2013. The experience, while not "life-changing" felt like a big step forward in Human-Computer interfaces (playing [EVE Valkyrie](https://www.evevalkyrie.com/) in VR was really freaking cool).
 
-Since that first demo, I've been somewhat closely following the development of the Oculus and - more recently - the HTC Vive. For what it's worth, [Tested](http://tested.com)'s weekly podcast ["This is Only a Test"](http://www.tested.com/this-is-only-a-test/) has been a great resource for keeping up-to-date with VR news and developments.
-<!--break-->
+Since that first demo, I've been somewhat closely following the development of the Oculus and - more recently - the HTC Vive. For what it's worth, [Tested](http://tested.com)'s weekly podcast ["This is Only a Test"](http://www.tested.com/this-is-only-a-test/) has been a great resource for keeping up-to-date with VR news and developments.<!--break-->
+
 So I was really curious to see user reviews of the Oculus CV1, which started shipping last week, and the HTC Vive, for which the first press reviews have just gone online. What I saw was largely to-be-expected: The Oculus has better industrial design and a smoother user experience, but the HTC Vive's room-scale experiences and included hand controllers are really what gives the "Wow" factor to these early VR platforms.
 
 Of particular note as a trend in product reviews I've seen was the general consensus that the consumer version of the Vive - like it's dev-kit predecessor - feels like *unfinished* hardware. This could potentially a real hindrance to the acceptance of the SteamVR platform. The DK1 and DK2 have been readily available to VR-nuts (who could afford them) for several years; this round of consumer launches was supposed to be when the 'polished' version of VR was released to general audiences. It's understandable that the dev Vive would feel like what it is - a dev kit, but if the consumer version feels unfinished, that really could hurt HTC's chances of being the victor in the "VR Wars" we're entering into.

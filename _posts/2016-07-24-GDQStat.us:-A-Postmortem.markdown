@@ -7,8 +7,7 @@ tags:       web gaming nodejs database
 
 [GDQStat.us](http://gdqstat.us), for those who didn't see it during this year's SGDQ, is/was a realtime data visualization of that biannual charity livestream. I had wanted to do something with realtime dataviz for the better part of a year - case in point my 'failed' Twitch visualizer, [CrowdShout](https://github.com/{{ site.github_username }}/crowdshout) - and had just gotten the Javascript chops to be able to pull something like this off.
 
-So, in early June when I first had the inking of an idea to do this project, I jumped head first into the world of realtime data aggregation and visualization, and had a really great time.
-<!--break-->
+So, in early June when I first had the inking of an idea to do this project, I jumped head first into the world of realtime data aggregation and visualization, and had a really great time.<!--break-->
 
 ## What I set out to make
 Not knowing how much time I'd want to invest into this, and not having a ton of Web experience, I decided initially on a relatively small scope.

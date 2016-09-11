@@ -7,8 +7,7 @@ tags:       meta writing
 
 Like many of us, I've tried to maintain a somewhat active blog enumerating what I've been working on, and what I've been thinking about.
 
-Despite being reasonably successful at writing posts on a regular interval, I've been somewhat unimpressed with the quality of my writing.
-<!--break-->
+Despite being reasonably successful at writing posts on a regular interval, I've been somewhat unimpressed with the quality of my writing.<!--break-->
 
 As a natural perfectionist, I've found it difficult to simply write 'something', edit it a bit, and call it publishable. In school, I was forced to go through these motions by hard deadlines. For personal projects like this, I procrastinate to the point where the details of whatever I wanted to write about have long since left my head, and the mental cost of 'reassembling all the pieces' is too high.
 

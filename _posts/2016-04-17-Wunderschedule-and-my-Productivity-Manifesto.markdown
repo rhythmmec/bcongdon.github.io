@@ -15,8 +15,8 @@ For one, Wunderlist lets you actually repeat tasks. Previously, I used to *manua
 
 And this was great. I have a certain number of atomized tasks ('Clean out my desk', 'Make sure the laptop gets backed up', later 'Commit to Github') that *should* be scheduled at a certain date every week. And Wunderlist supports this well. Immediately, I ran into the obstacle that, unlike Google Calendar, I could not schedule things for multiple, specific days of the week. (You get "Weekly" rather than "Weekly on Mondays and Fridays") This was a tad frustrating, but work-arounds were quick and easy.
 
-And so I stuck with Wunderlist.
-<!--break-->
+And so I stuck with Wunderlist.<!--break-->
+
 ## Why I created Wunderschedule
 
 Sometime in the past few months, as occasionally happens, my productivity pendulum swung way to one side and suddenly I'd have something absurd like *18* tasks for a given weekday that were just repeated tasks - not even specific to that particular day. And there was again a tax on my brain as I'd think more about optimally prioritizing these dozens of todos instead of, you know, actually doing them.

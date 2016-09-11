@@ -11,8 +11,8 @@ I felt a bit stuck, because I wanted something like the Python interpreter, but 
 
 My 'on-the-fly' solution was kludgey. String manipulation to get command sequences, then cascading conditionals to check and execute the functionality. It worked (mostly), and had the user experience I wanted, but the solution felt like I had unnecessarily reinvented the wheel - and in a rather inelegant way.
 
-After a bit of Google-foo, I've found what I believe may be a better solution. The `code` class in Python allows you to emulate features of the Python interpreter, which means you can embed an interpreter session within your project.
-<!--break-->
+After a bit of Google-foo, I've found what I believe may be a better solution. The `code` class in Python allows you to emulate features of the Python interpreter, which means you can embed an interpreter session within your project.<!--break-->
+
 As shown in [this Stack Overflow answer](http://stackoverflow.com/a/5597918/2421634), 6 lines of code will get you a fully functioning interpreter:
 {% highlight python %}
 import readline

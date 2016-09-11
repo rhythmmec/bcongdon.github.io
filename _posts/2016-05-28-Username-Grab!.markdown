@@ -5,8 +5,7 @@ date:       2016-05-28 12:57:01
 tags:       github
 ---
 
-I was working on a script for grabbing recent commit messages from Github this week when I realized that the Github handle `bcongdon` was available!
-<!--break-->
+I was working on a script for grabbing recent commit messages from Github this week when I realized that the Github handle `bcongdon` was available!<!--break-->
 
 I've written about my psuedo-obsession with short handles before, so naturally I grabbed it as soon as I could with an alternate email account. I then realized how much of a [PITA](http://www.netlingo.com/word/pita.php) it would be migrating all the links and remotes I'd have to transfer from `benjamincongdon` to `bcongdon`.
 
