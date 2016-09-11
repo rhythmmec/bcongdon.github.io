@@ -3,7 +3,7 @@ layout:     post
 title:      Internship 2016
 date:       2016-08-23 17:18:46
 tags:       coding ruby internship
-img:        https://c1.staticflickr.com/9/8751/16969360352_95d1e67958_k.jpg
+image:      https://c1.staticflickr.com/9/8751/16969360352_95d1e67958_k.jpg
 ---
 
 For the past few months, I had the opportunity to be a Systems Engineering intern at [Smartsheet](https://www.smartsheet.com). It was quite an enriching experience - I learned an indescribable amount in my summer there.<!--break-->

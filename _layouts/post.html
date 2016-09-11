@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% include blog_css.html %}
-{% if page.img %}
+{% if page.image %}
 <header>
-    <div class='jumbotron' style="background: url({{ page.img }}) {% if page.img_loc %}{{ page.img_loc }}{% else %} center bottom {% endif %} fixed no-repeat;"></div>
+    <div class='jumbotron' style="background: url({{ page.image }}) {% if page.img_loc %}{{ page.img_loc }}{% else %} center bottom {% endif %} fixed no-repeat;"></div>
 </header>
 {% endif %}
 <div class="container">
