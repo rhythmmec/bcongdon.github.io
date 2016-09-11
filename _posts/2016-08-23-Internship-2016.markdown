@@ -3,6 +3,7 @@ layout:     post
 title:      Internship 2016
 date:       2016-08-23 17:18:46
 tags:       coding ruby internship
+img:        https://c1.staticflickr.com/9/8751/16969360352_95d1e67958_k.jpg
 ---
 
 For the past few months, I had the opportunity to be a Systems Engineering intern at [Smartsheet](https://www.smartsheet.com). It was quite an enriching experience - I learned an indescribable amount in my summer there.<!--break-->
@@ -32,3 +33,5 @@ Where I think it falls flat is in the community around *vanilla* Ruby. So much o
 Learning new languages is fun and creating tools that people actually use is rewarding. Developing something that solves a problem doesn't necessarily mean making an app / website. Writing tools for developers is awesome, because it means you're bettering the workflow of your peers, and in turn advancing the discipline. Awesome!
 
 If you're at all interested, we open-sourced the whole project as [f5tools](https://github.com/smartsheet/f5tools) on Github, so feel free to check it out!
+
+*Cover: [Flickr](https://flic.kr/p/rRwpCu)*

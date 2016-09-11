@@ -52,3 +52,9 @@ a.post-title-link:hover {
   color: #333;
   text-decoration: none;
 }
+
+header .jumbotron {
+  height: 300px;
+  margin-top: -20px;
+  background-size: cover;
+}

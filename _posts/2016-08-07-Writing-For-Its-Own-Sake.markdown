@@ -3,6 +3,7 @@ layout:     post
 title:      Writing For Its Own Sake
 date:       2016-08-07 21:28:37
 tags:       meta writing
+img:        https://c1.staticflickr.com/9/8628/15817405853_f05d4c9686_k.jpg
 ---
 
 Like many of us, I've tried to maintain a somewhat active blog enumerating what I've been working on, and what I've been thinking about.
@@ -32,3 +33,5 @@ I connected with these types in that they recognize a pragmatic side of writing 
 Write the technical article you wish you'd found when you were last hopelessly down the rabbit hole of poorly-written StackOverflow answers or Github issue comments. Write about mundane curiosities or chance encounters with a beautiful piece of code. Write to reflect internally and externally about writing code. Write to improve your writing and communication skills.
 
 Find your motivation, and write about it.
+
+*Cover: [Flickr](https://flic.kr/p/q6JkG2)*
