@@ -1,0 +1,14 @@
+<div class="post-meta">
+    <div class="post-tags text-left"> in
+    {% if page.tags %}
+        {% assign source = page %}
+    {% else %}
+        {% assign source = post %}
+    {% endif %}
+    {% for tag in source.tags %}
+    {% assign tagindex = forloop.index %}
+        <a href="/tags/#{{ tag }}">{{ tag }}</a>{% if tagindex < source.tags.size - 1 %},{% endif %}
+    {% endfor %}
+    </div>
+    <div class="post-date text-right">{{ source.date | date: "%b %-d, %Y" }}</div>
+</div>

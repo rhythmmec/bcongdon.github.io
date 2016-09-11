@@ -23,10 +23,8 @@ description: Benjamin Congdon's Blog
 	  {% if post.content contains '<!--break-->' %}
       	<a class="post-read-more" href="{{ site.path }}{{ post.url }}">»</a>
    	  {% endif %}
-   	  <div class="post-meta-data row">
-   	  	<div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-   	  </div>
-	  {% if loopindex < 14 and loopindex != site.posts.size - 1 %}
+   	  {% include post_meta.html %}
+	  {% if loopindex < paginator.posts.size and loopindex != site.posts.size - 1 %}
 	  <hr>
 	  {% endif %}
 	</article>
