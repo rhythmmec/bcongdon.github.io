@@ -3,274 +3,151 @@ title: Projects
 layout: default
 permalink: /projects
 description: Benjamin Congdon's Projects
+tags:
+  - Web
+  - Desktop
+  - Mobile
+  - Academic
+  - Misc
+contributions:
+  - name: Helium
+    url: https://github.com/JadenGeller/Helium/commits/master?author=bcongdon
+  - name: matplotlib
+    url: https://github.com/matplotlib/matplotlib/commits/master?author=bcongdon
+  - name: Youtube-dl
+    url: https://github.com/rg3/youtube-dl/commits/master?author=bcongdon
+projects:
+  # Desktop
+  - name: TubeSync
+    desc: OSX menubar app for syncing Youtube Playlists to desktop for offline viewing
+    tag: Desktop
+    time: Winter 2015
+    url: https://github.com/bcongdon/TubeSync
+  - name: Adept
+    desc: Python 'Infinitely Extensible' RPG game platform created for CS196
+    tag: Desktop
+    time: Fall 2015
+    url: https://github.com/Adept196/adept/tree/develop
+  - name: "\"It's just Pong\""
+    desc: A tiny Pong clone for Mini Ludum Dare 58
+    tag: Desktop
+    time: Spring 2015
+    url: http://ludumdare.com/compo/minild-58/?action=preview&uid=36045
+  - name: Autism Lifestyle Tracker
+    desc: Java-based toolset for caretakers of children with Autism to track important data about care and behavior.
+    tag: Desktop
+    time: Spring 2015
+  - name: Ludum Dare 29
+    desc: Wrote a simple "endless runner"-esque game  in 48 hours based on a dictated theme.
+    tag: Desktop
+    time: Spring 2014
+    url: http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=36045
+
+  # Web
+  - name: GDQStat.us
+    desc: Dynamic, explorable data visualizations for a week long charity livestream.
+    tag: Web
+    time: Summer 2016
+    url: http://gdqstat.us
+  - name: TipOfTheHats Donation Tracker
+    desc: Added user SteamID association to a Django-based charity donation tracker.
+    tag: Web
+    time: Summer 2016
+    url: https://github.com/TipoftheHats/donation-tracker/commits/master?author=bcongdon
+  - name: Github-Label-Notify
+    desc: Node.js module that allows users to be notified about new issues with specific label.
+    tag: Web
+    time: Spring 2016
+    url: https://github.com/bcongdon/github-label-notify
+  - name: Wunderschedule
+    desc: Enhanced Wunderlist task scheduling for power users
+    tag: Web
+    time: Spring 2016
+    url: https://github.com/bcongdon/WunderSchedule
+  - name: CUMTD Bus Tracker
+    desc: Visualization of real-time location data for the Champaign-Urbana Bus System.
+    tag: Web
+    time: Spring 2016
+    url: https://github.com/bcongdon/CUMTD-Bus-Visualizer
+  - name: Political Heatmap
+    desc: Visualization of Twitter sentiment for current US Presidential Candidates by state. (SIGIR)
+    tag: Web
+    time: Fall 2015
+    url: https://github.com/bcongdon/PoliticalHeatMap-SIGIR
+
+  # Mobile
+  - name: Wandr
+    desc: Geofencing iOS app for dementia patients and their caretakers. (Won 3rd place at HuskieHacks 2015)
+    tag: Mobile
+    time: Fall 2015
+    url: https://github.com/bcongdon/Wandr-HuskieHacks
+
+  # Academic
+  - name: CS196 Course Assistant
+    desc: Functioned as a Product Manager of a small group of students for their semester long project.
+    tag: Academic
+    time: 2016 - present
+  - name: Bitcoin Research & Extended Essay
+    desc: Researched the viability of Subversive Mining Attacks on the Bitcoin network.
+    tag: Academic
+    time: 2014 - 2015
+    url: assets/SubversiveMiningAttacksEE.pdf
+
+  # Misc
+  - name: python-Emojipedia
+    desc: Python wrapper for Emojipedia. Allows for search / data collection on emojis.
+    tag: Misc
+    time: Spring 2016
+    url: https://github.com/bcongdon/python-emojipedia
+  - name: CrowdShout
+    desc: Toolset for Twitch streamers to parse realtime chat responses
+    tag: Misc
+    time: Fall 2015
+    url: https://github.com/bcongdon/Crowdshout
 ---
 
-<script src="{{ site.baseurl }}/js/index.js"></script>
 
+
+<script src="{{ site.baseurl }}/js/index.js"></script>
 
 <div class="container">
   <!-- Projects -->
   <div class="row">
     <div class="col-md-12 project-header">
       <h2><b>>Projects<</b></h2>
-      <h4><a href="#desktop">Desktop</a> | <a href="#web">Web</a> | <a href="#mobile">Mobile</a> | <a href="#academic">Academic</a> | <a href="#contributions">Contributions</a> | <a href="#misc">Misc</a></h4>
+      <h4><a href="#Desktop">Desktop</a> | <a href="#Web">Web</a> | <a href="#Mobile">Mobile</a> | <a href="#Academic">Academic</a> | <a href="#contributions">Contributions</a> | <a href="#misc">Misc</a></h4>
     </div>
   </div>
   <hr>
 
-  <!-- #### Desktop #### -->
-  <div class="row" id="desktop">
-    <div class="col-md-12">
-      <h3><b>>Desktop<</b></h3>
-      <br>
+  {% for tag in page.tags %}
+    <div class="row" id="{{ tag }}">
+      <div class="col-md-12">
+        <h3><b>>{{ tag }}<</b></h3>
+        <br>
+      </div>
     </div>
-  </div>
-
-  <!-- TubeSync -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/{{ site.github_username }}/TubeSync">TubeSync</a>
+    {% assign tag_projects = (page.projects | where:"tag",tag) %}
+    {% for p in tag_projects %}
+    <div class="row project">
+      <div class="col-md-3 project-title">
+        {% if p.url %}
+        <a href="{{ p.url }}">{{ p.name }}</a>
+        {% else %}
+        {{ p.name }}
+        {% endif %}
+      </div>
+      <div class="col-md-7">
+        <ul class="project-bullet">
+          <li>{{p.desc }}</li>
+        </ul>
+      </div>
+      <div class="col-md-2 project-date">
+        {{ p.time }}
+      </div>
     </div>
-    <div class="col-md-7">
-      <ul class="project-bullet">
-        <li>OSX menubar app for syncing Youtube Playlists to desktop for offline viewing.</li>
-        <li>UI built in Xcode with Cocoa and Swift. Bridges to Python for downloading using the 
-        <a href="https://github.com/rg3/youtube-dl">Youtube-DL</a> module.</li>
-        <li>Focussed on maintaining responsive UI while managing asynchronous downloads.</li>
-      </ul>
-    </div>
-    <div class="col-md-2 project-date">
-      January, 2016
-    </div>
-  </div>
-
-  <!-- Adept -->
-  <div class="row project" id="adept">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/Adept196/adept/tree/develop">Adept</a>
-    </div>
-    <div class="col-md-7">
-      <ul class="project-bullet">
-        <li>Python 'Infinitely Extensible' RPG game platform created for CS196</li>
-        <li>Worked on implementing continuous integration, unit testing, and modular UI</li>
-        <li>Scripted procedural generation of terrain data</li>
-      </ul>
-    </div>
-    <div class="col-md-2 project-date">
-      August - December, 2015
-    </div>
-  </div>
-
-  <!-- PONG -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="http://ludumdare.com/compo/minild-58/?action=preview&uid=36045">"It's just Pong"</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Created a tiny Pong clone for Mini Ludum Dare 58</li>
-        <li>Scripted in C# on the Unity3d game engine</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      March, 2015
-    </div>
-  </div>
-
-  <!-- Autism Lifestyle Tracker -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      Autism Lifestyle Tracker
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Built a toolset for caretakers of children with Autism to track important data about care and behavior.</li>
-        <li>Designed and programmed tools for data input and visualization.</li>
-        <li>Written in Java on the Netbeans platform for my IB CS courses' internal assessment; received full marks</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      December 2013 - April 2014
-    </div>
-  </div>
-
-  <!-- Ludum Dare -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=36045">Ludum Dare 29</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Wrote a simple "endless runner"-esque game  in 48 hours based on a dictated theme.</li>
-        <li>Scripted in C# on the Unity3d engine using assets only created during the 48-hour time window.</li>
-        <li>Competed as part of the <a href="http://ludumdare.com/">Ludum Dare</a> game jam</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      April 2014
-    </div>
-  </div>
-
-  <!-- #### Web #### -->
-  <div class="row" id="web">
-    <div class="col-md-12">
-      <h3><b>>Web<</b></h3>
-      <br>
-    </div>
-  </div>
-
-  <!-- SGDQStats -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="http://gdqstat.us">GDQStat.us</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Viewership and donation visualizations for week long charity livestream.</li>
-        <li>Wrote back end scripts to do Twitch chat and Twitter data collection using Firebase as the real time data store.</li>
-        <li>Designed customizable front end data visualizations with D3.js.</li>
-        <li>Used NodeJS and Forever for backend scripts, Python and BeautifulSoup for web scraping, and Google Compute as the cloud compute instance.</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      June - July, 2016
-    </div>
-  </div>
-
-  <!-- Github Label Notify -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/{{ site.github_username }}/github-label-notify">Github-Label-Notify</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Node.js module that allows users to be notified about new issues with specific label.</li>
-        <li>Links Github API with <a href="https://ifttt.com/">IFTTT</a> for notifications.</li>
-        <li><a href = "https://www.npmjs.com/package/github-label-notify">Published</a> to npm.</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      May, 2016
-    </div>
-  </div>
-
-  <!-- Wunderschedule -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/{{ site.github_username }}/WunderSchedule">Wunderschedule</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Node.js module that allows users to schedule start times for Wunderlist tasks.</li>
-        <li>Designed templated task system to provide more flexible scheduling than in unmodified Wunderlist.</li>
-        <li>Wraps the <a href = "https://developer.wunderlist.com/documentation">Wunderlist</a> API. <a href = "https://www.npmjs.com/package/wunderschedule">Published</a> to npm.</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      March - April, 2016
-    </div>
-  </div>
-
-  <!-- Bus Tracker -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/{{ site.github_username }}/CUMTD-Bus-Visualizer">CUMTD Bus Tracker</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Visualization of real-time location data of the Champaign-Urbana Bus System.</li>
-        <li>Built with a <a href="http://flask.pocoo.org/">Flask</a> (Python) backend.</li>
-        <li>Uses <a href="https://developers.google.com/maps/">Google Maps API</a> for front-end visualization.</li>
-        <li>Deployed to <a href="https://www.heroku.com/">Heroku</a>.</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      February, 2016
-    </div>
-  </div>
-
-  <!-- Political Heatmap -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/{{ site.github_username }}/PoliticalHeatMap-SIGIR">Political Heatmap (SIGIR)</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Data visualization of Twitter sentiment for current US Presidential Candidates per state</li>
-        <li>Wrote backend python scripts for scraping geotagged tweets and performing sentiment analysis</li>
-        <li>Interfaced with <a href="https://github.com/geduldig/TwitterAPI">TwitterAPI</a> wrapper and <a href = http://www.alchemyapi.com/>AlchemyAPI</a></li>
-        <li>Project for ACM SIGIR (Information Retrieval)</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      September - October, 2015
-    </div>
-  </div>
-
-  <!-- ####Mobile#### -->
-  <div class="row" id="mobile">
-    <div class="col-md-12">
-      <h3><b>>Mobile<</b></h3>
-      <br>
-    </div>
-  </div>
-
-  <!-- Wandr -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/{{ site.github_username }}/Wandr-HuskieHacks">Wandr (HuskieHacks 2015)</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Geofencing iOS app for dementia patients and their caretakers</li>
-        <li>Written in Swift and utilizes the <a href="https://www.twilio.com/">Twilio</a> API</li>
-        <li>Created for the HuskieHacks 2015 hackathon. Won 3rd place overall</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      September, 2015
-    </div>
-  </div>
-
-  <!-- #### Academic #### -->
-  <div class="row" id="academic">
-    <div class="col-md-12">
-      <h3><b>>Academic<</b></h3>
-      <br>
-    </div>
-  </div>
-
-  <!-- CS 196 -->
-  <div class="row project">
-    <div class="col-md-3 project-title" id=''>
-      <a href="https://courses.engr.illinois.edu/cs19625/#/">Course Assistant <br>- CS 196</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Functioned as a Product Manager of a small group of students for their semester long project.</li>
-        <li>Wrote Python Homework problems with auto-grader test cases.</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      January - May 2016
-    </div>
-  </div>
-
-  <!-- Bitcoin EE -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="assets/SubversiveMiningAttacksEE.pdf">Bitcoin Research & Extended Essay</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Researched the viability of Subversive Mining Attacks on the Bitcoin network</li>
-        <li>Produced a 4,000 word research paper</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      September, 2014 - <br>January, 2015
-    </div>
-  </div>
+    {% endfor %}
+  {% endfor %}
 
   <!-- #### Contributions #### -->
   <div class="row" id="contributions">
@@ -283,50 +160,10 @@ description: Benjamin Congdon's Projects
   <div class="row project">
       <div class="col-md-6 project-title">
       <ul class="project-bullet">
-        <li><a href="https://github.com/JadenGeller/Helium/commits/master?author={{ site.github_username }}">Helium</a></li>
-        <li><a href="https://github.com/matplotlib/matplotlib/commits/master?author={{ site.github_username }}">matplotlib</a></li>
-        <li><a href="https://github.com/rg3/youtube-dl/commits/master?author={{ site.github_username }}">Youtube-dl</a></li>
+        {% for c in page.contributions %}
+          <li><a href="{{ c.url }}">{{ c.name }}</a></li>
+        {% endfor %}
       </ul>
-    </div>
-  </div>
-
-  <!-- #### Misc #### -->
-  <div class="row" id="misc">
-    <div class="col-md-12">
-      <h3><b>>Misc<</b></h3>
-      <br>
-    </div>
-  </div>
-
-  <!-- python-Emojipedia -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/{{ site.github_username }}/python-emojipedia">python-Emojipedia</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Python wrapper for Emojipedia. Allows for search / data collection on emojis.</li>
-        <li><a href="https://pypi.python.org/pypi/Emojipedia/">Published</a> in PyPI. Uses BeautifulSoup for scraping.</li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      May, 2016
-    </div>
-  </div>
-
-  <!-- CrowdShout -->
-  <div class="row project">
-    <div class="col-md-3 project-title">
-      <a href="https://github.com/{{ site.github_username }}/Crowdshout">Crowdshout</a>
-    </div>
-    <div class="col-md-6">
-      <ul class="project-bullet">
-        <li>Toolset for Twitch streamers to parse realtime chat responses </li>
-        <li>Written in Python </li>
-      </ul>
-    </div>
-    <div class="col-md-3 project-date">
-      August, 2015
     </div>
   </div>
 
