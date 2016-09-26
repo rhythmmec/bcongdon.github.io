@@ -57,13 +57,12 @@ a.post-title-link:hover {
 header .jumbotron {
   height: 300px;
   margin-top: -20px;
-  background-size: cover;
-  webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
+  background-size: contain;
+  webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; 
 }
-
 
 .blog-img {
   margin: 0 auto;
