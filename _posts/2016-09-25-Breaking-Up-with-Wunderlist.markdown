@@ -62,3 +62,5 @@ It's not even an understatement to say that I offloaded significant portions of 
 I'm still comfortable having this data be in the cloud, but I'd be remiss if I didn't admit that really, Todoist is probably no better than Wunderlist as far as stability. What I *really* want at some point is a self-hosted solution. The `awesome-selfhosted` OSS list has some decent enough [choices](https://github.com/Kickball/awesome-selfhosted#task-managementto-do-lists), but none that I'd really want to throw my weight behind. (Honestly, it's pretty surprising that there isn't an established OSS solution to this problem, as building a Todo app is pretty much everyone's second or third project.)
 
 In the absence of a good self-hosted solution, I'm sticking with the cloud. Anything's better than the old pen-and-paper todos... 😉
+
+*Cover: [Flickr](https://www.flickr.com/photos/carloszgz/19980799311/in/pool-publicdomain/)*

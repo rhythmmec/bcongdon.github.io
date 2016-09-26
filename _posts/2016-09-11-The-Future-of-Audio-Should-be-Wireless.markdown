@@ -32,4 +32,4 @@ I hope that if nothing else, the iPhone 7 causes manufacturers to focus more on 
 
 Hopefully with the increased interest in this product category, wireless audio will reach quality parity with wired audio and become the clear choice going forward. 
 
-*Cover: [Flicker](https://c2.staticflickr.com/8/7688/27519453045_97f4196c70_k.jpg)*
+*Cover: [Flickr](https://c2.staticflickr.com/8/7688/27519453045_97f4196c70_k.jpg)*
