@@ -58,7 +58,12 @@ header .jumbotron {
   height: 300px;
   margin-top: -20px;
   background-size: cover;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
+
 
 .blog-img {
   margin: 0 auto;
