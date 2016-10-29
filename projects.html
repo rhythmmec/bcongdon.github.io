@@ -144,21 +144,24 @@ projects:
     </div>
     {% assign tag_projects = (page.projects | where:"tag",tag) %}
     {% for p in tag_projects %}
-    <div class="row project">
-      <div class="col-md-3 project-title">
+    <div class="row project-title-row">
+      <div class="col-md-10 project-title">
         {% if p.url %}
         <a href="{{ p.url }}">{{ p.name }}</a>
         {% else %}
         {{ p.name }}
         {% endif %}
       </div>
-      <div class="col-md-7">
-        <ul class="project-bullet">
-          <li>{{p.desc }}</li>
-        </ul>
-      </div>
       <div class="col-md-2 project-date">
         {{ p.time }}
+      </div>
+    </div>
+    <div class="row project-desc">
+      <div class='col-md-1'></div>
+      <div class="col-md-11">
+        <!-- <ul class="project-bullet"> -->
+          <p>{{p.desc }}</p>
+        <!-- </ul> -->
       </div>
     </div>
     {% endfor %}
@@ -173,12 +176,13 @@ projects:
   </div>
 
   <div class="row project">
+      <div class='col-md-1'></div>
       <div class="col-md-6 project-title">
-      <ul class="project-bullet">
-        {% for c in page.contributions %}
-          <li><a href="{{ c.url }}">{{ c.name }}</a></li>
-        {% endfor %}
-      </ul>
+        <ul class="project-bullet">
+          {% for c in page.contributions %}
+            <li><a href="{{ c.url }}">{{ c.name }}</a></li>
+          {% endfor %}
+        </ul>
     </div>
   </div>
 

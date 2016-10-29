@@ -19,7 +19,7 @@ body {
 }
 
 .project-bullet {
-  list-style-type:circle;
+  list-style-type: disc;
   padding-left: 5px;
 }
 
@@ -38,8 +38,12 @@ body {
   font-size: 12px
 }
 
-.project {
-  padding-bottom: 20px
+.project-desc {
+  padding-bottom: 15px
+}
+
+.project-title-row {
+  padding-bottom: 5px
 }
 
 /* Custom page header */
