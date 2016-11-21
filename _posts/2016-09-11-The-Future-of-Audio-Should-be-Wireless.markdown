@@ -4,6 +4,7 @@ title:      The Future of Audio Should be Wireless
 date:       2016-09-11 20:14:08
 tags:       tech Apple
 image: 	  https://c2.staticflickr.com/8/7688/27519453045_97f4196c70_k.jpg
+img_loc:    center 100%
 ---
 
 Apple's move away from wired headphones towards bluetooth solutions is the right move. Wireless audio is simply a better experience on mobile and desktop.<!--break-->

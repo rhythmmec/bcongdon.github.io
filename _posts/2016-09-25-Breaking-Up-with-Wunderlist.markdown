@@ -4,6 +4,7 @@ title:      Breaking Up with Wunderlist
 date:       2016-09-25 18:20:25
 tags:       productivity
 image: 	  https://c1.staticflickr.com/1/438/19980799311_28f551e0f4_k.jpg
+img_loc:    center 100%
 ---
 
 Welp. I've switched Todo apps *again*. Wunderlist had a huge multi-day outage that prompted me to switch to my new favorite productivity app, Todoist.<!--break-->

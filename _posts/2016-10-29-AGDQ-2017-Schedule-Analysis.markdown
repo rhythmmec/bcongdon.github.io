@@ -4,7 +4,7 @@ title:      AGDQ 2017 Schedule Analysis
 date:       2016-10-29 13:32:14
 tags:       python gaming dataviz
 image:	    https://farm6.staticflickr.com/5507/11995786214_4b3dff6826_k_d.jpg
-img_loc:    bottom center
+img_loc:    center 120%
 ---
 
 The AGDQ 2017 schedule was released last weekend, and I've once again digested it into some neat looking graphs!<!--break-->

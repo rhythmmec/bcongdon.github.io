@@ -4,6 +4,7 @@ title:      Writing For Its Own Sake
 date:       2016-08-07 21:28:37
 tags:       meta writing
 image:      https://c1.staticflickr.com/9/8628/15817405853_f05d4c9686_k.jpg
+img_loc:    center 140%
 ---
 
 Like many of us, I've tried to maintain a somewhat active blog enumerating what I've been working on, and what I've been thinking about.
