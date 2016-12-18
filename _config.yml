@@ -43,4 +43,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-exclude: [README.md, vendor]
+exclude: [README.md, vendor, script]

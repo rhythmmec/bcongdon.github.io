@@ -8,27 +8,27 @@ title: Tags
 
 # Tags
 <ul>
-  {% assign tags_list = site.tags %}
+  {% assign tags_list = (site.tags | sort:0) %}
 
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
       <li><a href="#{{ tag }}" class=''>
         {{ tag }} <span class='badge'>{{ site.tags[tag].size }}</span>
-      </a></li>
+      </a>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <li><a href="#{{ tag[0] }}" class=''>
-        {{ tag[0] }} <span class='badge'>{{ tag[1].size }}</span>
-      </a></li>
+      <a href="#{{ tag[0] }}" class='label label-primary glyph-label'>
+        <span class='glyphicon glyphicon-tags' style='padding-right: 5px; white-space: nowrap;'></span>
+        {{ tag[0] }}
+        <!-- <span class='badge'>{{ tag[1].size }}</span> -->
+      </a>
     {% endfor %}
   {% endif %}
-
-  {% assign tags_list = nil %}
 </ul>
 
 
-{% for tag in site.tags %}
+{% for tag in tags_list %}
   <h2 class='tag-header' id="{{ tag[0] }}">{{ tag[0] }}</h2>
   <ul>
     {% assign pages_list = tag[1] %}
@@ -49,3 +49,4 @@ title: Tags
     {% assign group = nil %}
   </ul>
 {% endfor %}
+{% assign tags_list = nil %}

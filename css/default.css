@@ -143,6 +143,11 @@ body {
   text-align: center;
 }
 
+.glyph-label {
+  display: inline-block;
+  margin-left: 5px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 786px) {
   .header,
