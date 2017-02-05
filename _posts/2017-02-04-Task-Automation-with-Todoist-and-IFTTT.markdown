@@ -17,7 +17,11 @@ My new discovery is how to automate "follow-up" tasks. Another annoying trope of
 
 This can be automated with IFTTT: Simply add a unique tag on the first task - I usually use the task's full name - and create an IFTTT applet that triggers upon completion of that tag, which the creates the next task in that "task chain".
 
+![Trigger Based on Task Tag](/img/ifttt_todoist/label_trigger.png){: class="blog-img" }
+
 This also works for setting reminders at a certain time interval after the completion of a task. Going back to my example, you could set the reminder time to "Fold Laundry" to be an hour after you finished "Do Laundry". When you create a task in Todoist through IFTTT, you can specify relative due dates by entering something like "+1 hour" in the due date box.
+
+![Relative Task Due Date](/img/ifttt_todoist/relative_timing.png){: class="blog-img" }
 
 It's a bit of a hack, and (I believe) it requires Todoist Premium - a service that I happily pay for - but this technique works like magic. I realize how esoteric this type of productivity automation is, but every bit counts. I've been experimenting a bunch with IFTTT and [Workflow](https://workflow.is/) recently, and have found that as automated as my productivity management environment is, there's still room for growth.
 
