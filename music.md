@@ -31,15 +31,13 @@ Here is a selection of my favorite pieces with links to performances:
 ## Miscellany
 
 ### Performance Groups
-* UIUC Wind Orchestra, 2015-present
+* UIUC Wind Orchestra, 2015-2016
 * [Seattle Youth Symphony Orchestra (SYSO)](http://syso.org/), 2009-2015
 * Inglemoor High School Wind Ensemble, 2012-2015
 * All-Northwest Band, 2015
 * Washington All-State Band, 2014
 * All-Northwest Band, 2013
 * Washington Ambassadors of Music Europe Tour, 2012
-
-
 
 ### Musical Accolades
 

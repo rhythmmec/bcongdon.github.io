@@ -50,12 +50,13 @@ body {
 .header {
   padding-bottom: 20px;
   border-bottom: 1px solid #313131;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+  }
 }
 
 .title h1 {
@@ -81,14 +82,17 @@ body {
   margin: 30px 0;
 }
 
-.about h4 {
-  font-weight: bolder;
-  font-size: 25px;
-}
-.about p {
-  font-size: 16px;
-  font-weight: lighter;
-  text-indent: 5%;
+.about {
+  h4 {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: lighter;
+    text-indent: 5%;
+  }
 }
 
 .social-media-buttons{
@@ -120,7 +124,7 @@ body {
   max-width: 40%;
 }
 
-.project-date{
+.project-date {
   text-align: left;
 }
 
