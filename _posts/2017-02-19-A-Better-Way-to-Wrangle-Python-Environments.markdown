@@ -23,7 +23,7 @@ This keeps your system-level packages in-tact, your project dependencies clear, 
 
 Installing Autoenv is pretty trivial. It's as simple as:
 
-```
+```sh
 pip install autoenv
 echo "source `which activate.sh`" >> ~/.bashrc
 ```
@@ -37,7 +37,7 @@ Your `.env` file should do two things:
 
 Here's my ideal `.env` file:
 
-```
+```sh
 export PYTHONPATH=.
 source /path/to/project/directory/venv/bin/activate
 ```
@@ -46,9 +46,33 @@ Short. Simple. Extensible. Just add additional exports as necessary if you want 
 
 In fact, you can get this all setup with two commands:
 
-```
+```sh
 virtualenv venv
 echo "export PYTHONPATH=.\nsource `pwd`/venv/bin/activate" > .env
 ``` 
 
 Then, just `cd` into your project directory, and you'll have your virtual environment setup and ready for package installations.
+
+## Bonus Points
+
+Autoenv executes `.env` files in each of the parent directories of your current directory. So, if I `cd` to `~/Documents/MyProject`, Autoenv looks for:
+
+* `~/.env`
+* `~/Documents/.env`
+* `~/Documents/Myproject/.env`
+
+... and executes them in that order.
+
+This means, you can put a script in `~/.env` and it'll be executed prior to the project-specific `.env`.
+
+You can take advantage of this to automatically `deactivate` virtual environments.
+
+Simply make a `.env` in your home directory with this little script:
+
+```sh
+if which deactivate >/dev/null; then
+    deactivate
+fi
+```
+
+This will `deactivate` a virtual environment if you have one activated. So, if you `cd` outside your project, the virtual environment of that project is automatically deactivated. Awesome!
