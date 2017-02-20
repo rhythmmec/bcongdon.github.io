@@ -18,7 +18,7 @@ I had a couple goals for this new server. Namely I wanted:
 
 I wanted something a bit less involved than building a NAS/Home Server up from a bare linux distro, so I looked into a variety of NAS OS platforms. The options I considered most strongly were:
 
-* **[FreeNAS](www.freenas.org)**
+* **[FreeNAS](https://www.freenas.org)**
 	* Pros:
 		* Good community support.
 		* Known to be stable.

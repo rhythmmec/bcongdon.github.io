@@ -11,6 +11,7 @@ description: Benjamin Congdon's Blog
 		<h1>>Blog<</h1>
 	</div>
 	<hr>
+	{% assign endindex = site.posts.size - 1 %}
 	{% for post in paginator.posts %}
 	{% assign loopindex = forloop.index %}
 	<article class='post'>
@@ -24,7 +25,7 @@ description: Benjamin Congdon's Blog
       	<a class="post-read-more" href="{{ site.path }}{{ post.url }}">»</a>
    	  {% endif %}
    	  {% include post_meta.html %}
-	  {% if loopindex < paginator.posts.size and loopindex != site.posts.size - 1 %}
+	  {% if loopindex < paginator.posts.size and loopindex != endindex %}
 	  <hr>
 	  {% endif %}
 	</article>
