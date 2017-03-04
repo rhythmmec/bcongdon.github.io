@@ -23,15 +23,15 @@ Here's a list of what's currently queued up in my podcast feed:
 
 ### Not Categorized
 
-* [Do By Friday]() :star::full_moon: - Weekly.
+* [Do By Friday](http://dobyfriday.com/) :star::full_moon: - Weekly. Ostensibly a "Weekly Challenge Podcast" by Max Temkin, Merlin Mann, and Alex Cox. In reality, an indescribably-hilarious meta-podcast on productivity, automation, and politics. Worth listening to from the beginning, because so much of the humor is additive. This is probably the podcast that I look forward to most each week, and "save" for Saturday mornings. Not sure how long the hosts will continue to capture lightning in a bottle each week, but as of now this is unquestionably my favorite podcast.
 
-* [Waking Up with Sam Harris]() :star::full_moon: - Weekly.
+* [Waking Up with Sam Harris](https://soundcloud.com/samharrisorg) :star::full_moon: - Weekly.
 
-* [Hello Internet]() :full_moon: - Biweekly-ish.
+* [Hello Internet](http://www.hellointernet.fm/) :full_moon: - Biweekly-ish. Conversational podcast between CGP Grey and Brady Haran, both of Youtube fame.
 
-* [Still Untitled]() :full_moon: - Weekly.
+* [Still Untitled](http://www.tested.com/still-untitled-the-adam-savage-project/) :full_moon: - Weekly.
 
-* [Analog(ue)]() :full_moon: - Biweekly.
+* [Analog(ue)](https://www.relay.fm/analogue) :full_moon: - Biweekly.
 
 * [Radiolab](http://www.radiolab.org/series/podcasts/) :last_quarter_moon: - Weekly. Thought provoking radio pieces exploring some specific aspect of the human condition. Absolutely adored their older episodes, recent ones can be hit-or-miss. Never fails to be insightful in some respect, similar to 'This American Life' in the best possible way.
 
@@ -43,9 +43,9 @@ Here's a list of what's currently queued up in my podcast feed:
 
 * [This Week in Tech](https://twit.tv/shows/this-week-in-tech) :waning_gibbous_moon: - Weekly. Hosted by Leo Laporte, who's joined each week by a panel of tech pundits, TWIT is a thought provoking weekly conversation about trends in the tech space. I've been listening for about a year, and find TWIT to be a very reliable source of more 'business' oriented perspectives on tech. 
 
-* [Ctrl-Walt-Delete]() :waning_gibbous_moon: - Weekly.
+* [Ctrl-Walt-Delete](http://www.theverge.com/ctrl-walt-delete) :waning_gibbous_moon: - Weekly.
 
-* [The Talk Show With John Gruber]() :waning_gibbous_moon: - Biweekly.
+* [The Talk Show With John Gruber](https://daringfireball.net/thetalkshow/) :waning_gibbous_moon: - Biweekly.
 
 * [TheWANShow](https://soundcloud.com/thewanshow) :last_quarter_moon: - Weekly. I regularly watch the [LinusTechTips](https://www.youtube.com/user/LinusTechTips) channel on Youtube for its mix of hardware reviews and computer builds. The WAN Show is the channel's livestream/podcast offshoot for weekly news. It's a pretty 'meh' source of news, but Linus and Luke usually have interesting perspectives from the 'user' and 'content creator' end of things. The format is quite entertaining, and they usually go more in depth with computer hardware (like new graphics cards or CPU architectures) than my other sources of tech news.
 
@@ -68,15 +68,15 @@ Here's a list of what's currently queued up in my podcast feed:
 
 * [Programming Throwdown](http://www.programmingthrowdown.com/) :waning_gibbous_moon: - Monthly / irregular. Have been listening for a few months now. The hosts are 2 in-industry software engineers and the general format is a different programming language or technology is highlighted each show, usually focusing on something 'up-and-coming' in the software engineering community.
 
-* [Talk Python To Me]() :last_quarter_moon: - Weekly.
+* [Talk Python To Me](https://talkpython.fm/) :last_quarter_moon: - Weekly.
 
-* [The Changelog]() :waning_crescent_moon: - Weekly.
+* [The Changelog](https://changelog.com/podcast) :waning_crescent_moon: - Weekly.
 
 ### Productivity
 
-* [Cortex]() :full_moon: - Biweekly.
+* [Cortex](https://www.relay.fm/cortex) :full_moon: - Biweekly.
 
-* [The Tim Feriss Show]() :last_quarter_moon: - Weekly.
+* [The Tim Feriss Show](http://tim.blog/podcast/) :last_quarter_moon: - Weekly.
 
 ### News
 
