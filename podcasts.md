@@ -23,15 +23,15 @@ Here's a list of what's currently queued up in my podcast feed:
 
 ### Not Categorized
 
-* [Do By Friday](http://dobyfriday.com/) :star::full_moon: - Weekly. Ostensibly a "Weekly Challenge Podcast" by Max Temkin, Merlin Mann, and Alex Cox. In reality, an indescribably-hilarious meta-podcast on productivity, automation, and politics. Worth listening to from the beginning, because so much of the humor is additive. This is probably the podcast that I look forward to most each week, and "save" for Saturday mornings. Not sure how long the hosts will continue to capture lightning in a bottle each week, but as of now this is unquestionably my favorite podcast.
+* [Do By Friday](http://dobyfriday.com/) :star::full_moon: - Weekly. Ostensibly a "Weekly Challenge Podcast" by Max Temkin, Merlin Mann, and Alex Cox. In reality, an indescribably-hilarious meta-podcast on productivity, automation, and politics. Worth listening to from the beginning, because so much of the humor is additive (if also somewhat eclectic). This is probably the podcast that I look forward to most each week, and "save" for Saturday mornings. Not sure how long the hosts will continue to capture lightning in a bottle each week, but as of now this is unquestionably my favorite podcast.
 
-* [Waking Up with Sam Harris](https://soundcloud.com/samharrisorg) :star::full_moon: - Weekly.
+* [Waking Up with Sam Harris](https://soundcloud.com/samharrisorg) :star::full_moon: - Weekly. Discussions of philosophy and ethics with Sam Harris and guests. Consistently interesting, and encompasses a wide variety of contemporary issues. Harris is definitely a controversial figure, so you're enjoyment of this podcast will likely be gated on whether or not you can palate Harris' opinions. 
 
 * [Hello Internet](http://www.hellointernet.fm/) :full_moon: - Biweekly-ish. Conversational podcast between CGP Grey and Brady Haran, both of Youtube fame.
 
-* [Still Untitled](http://www.tested.com/still-untitled-the-adam-savage-project/) :full_moon: - Weekly.
+* [Still Untitled](http://www.tested.com/still-untitled-the-adam-savage-project/) :full_moon: - Weekly. Adam Savage's weekly podcasts. Common topics are maker culture and technology. Not particularly great if you're not already a fan of either Adam or Tested.
 
-* [Analog(ue)](https://www.relay.fm/analogue) :full_moon: - Biweekly.
+* [Analog(ue)](https://www.relay.fm/analogue) :full_moon: - Biweekly. Human interest show with [Casey Liss](https://twitter.com/caseyliss) and [Myke Hurley](https://twitter.com/imyke). Feels very "real" in a somewhat indescribable way. Probably only appealing if you're a fan of either Casey or Myke from other podcasts.
 
 * [Radiolab](http://www.radiolab.org/series/podcasts/) :last_quarter_moon: - Weekly. Thought provoking radio pieces exploring some specific aspect of the human condition. Absolutely adored their older episodes, recent ones can be hit-or-miss. Never fails to be insightful in some respect, similar to 'This American Life' in the best possible way.
 
@@ -43,9 +43,9 @@ Here's a list of what's currently queued up in my podcast feed:
 
 * [This Week in Tech](https://twit.tv/shows/this-week-in-tech) :waning_gibbous_moon: - Weekly. Hosted by Leo Laporte, who's joined each week by a panel of tech pundits, TWIT is a thought provoking weekly conversation about trends in the tech space. I've been listening for about a year, and find TWIT to be a very reliable source of more 'business' oriented perspectives on tech. 
 
-* [Ctrl-Walt-Delete](http://www.theverge.com/ctrl-walt-delete) :waning_gibbous_moon: - Weekly.
+* [Ctrl-Walt-Delete](http://www.theverge.com/ctrl-walt-delete) :waning_gibbous_moon: - Weekly. Conversation between Walt Mossberg and Nilay Patel of The Verge. Interesting framing of the week's tech news in a more "long-game" perspective.
 
-* [The Talk Show With John Gruber](https://daringfireball.net/thetalkshow/) :waning_gibbous_moon: - Biweekly.
+* [The Talk Show With John Gruber](https://daringfireball.net/thetalkshow/) :waning_gibbous_moon: - Biweekly. Apple rumors, tech punditry.
 
 * [TheWANShow](https://soundcloud.com/thewanshow) :last_quarter_moon: - Weekly. I regularly watch the [LinusTechTips](https://www.youtube.com/user/LinusTechTips) channel on Youtube for its mix of hardware reviews and computer builds. The WAN Show is the channel's livestream/podcast offshoot for weekly news. It's a pretty 'meh' source of news, but Linus and Luke usually have interesting perspectives from the 'user' and 'content creator' end of things. The format is quite entertaining, and they usually go more in depth with computer hardware (like new graphics cards or CPU architectures) than my other sources of tech news.
 
@@ -55,26 +55,24 @@ Here's a list of what's currently queued up in my podcast feed:
 
 * [Reply All](https://gimletmedia.com/show/reply-all/) :star::full_moon: - Weekly. Entertaining explorations of the 'weird side of the internet', the way people behave through the internet, and miscellaneous social *faux pas* facilitated by technology. Recommended as light entertainment.
 
-* [Accidental Tech Podcast](http://atp.fm) :full_moon: - Weekly.
+* [Accidental Tech Podcast](http://atp.fm) :full_moon: - Weekly. Marco Arment's podcast; good discussion of Apple rumors (mostly) and other tech punditry. At its best when they talk about software engineering, such as when they had Chris Lattner on to talk about Swift.
 
 * [Exponent](http://exponent.fm/) :waning_gibbous_moon: - Weekly. I was introduced to Ben Thompson and his site, Stratechery, in an interview he did with Ezra Klein. Ben has really fascinating takes on the trends in tech, and while I'm generally more interested in the engineering slant of tech, Exponent's analysis of the business of tech often casts really interesting insights onto the necessary innovations and approaches of companies on both the business and engineering ends of the spectrum. Not for the tech-uninitiated. Each episode usually leaves me with something to think about for a few days. Highly recommended.
 
-* [Note to Self](https://www.wnyc.org/shows/notetoself) :waning_gibbous_moon: - Weekly.
-
-* [Partially Derivative](http://www.partiallyderivative.com/) :waning_crescent_moon: - Weekly. Meaty conversations about Data Science and its applications in software engineering and abroad.
+* [Note to Self](https://www.wnyc.org/shows/notetoself) :waning_gibbous_moon: - Weekly. "Technology podcast for humans". Looks at the societal impact of tech, and implications for privacy, interpersonal relationships, etc.
 
 
 ### Programming
 
 * [Programming Throwdown](http://www.programmingthrowdown.com/) :waning_gibbous_moon: - Monthly / irregular. Have been listening for a few months now. The hosts are 2 in-industry software engineers and the general format is a different programming language or technology is highlighted each show, usually focusing on something 'up-and-coming' in the software engineering community.
 
-* [Talk Python To Me](https://talkpython.fm/) :last_quarter_moon: - Weekly.
+* [Talk Python To Me](https://talkpython.fm/) :last_quarter_moon: - Weekly. Discussions with prominent members of the Python Community. 
 
-* [The Changelog](https://changelog.com/podcast) :waning_crescent_moon: - Weekly.
+* [The Changelog](https://changelog.com/podcast) :waning_crescent_moon: - Weekly. Discussions with prominent members of the Open Source Community. Can be interesting, but depends on the guest.
 
 ### Productivity
 
-* [Cortex](https://www.relay.fm/cortex) :full_moon: - Biweekly.
+* [Cortex](https://www.relay.fm/cortex) :full_moon: - Biweekly. "Working Journal" between CGP Grey and Myke Hurley. Common topics include time tracking, productivity software, and work habits. Quite a good listen, as both of the hosts have interesting points-of-view towards living productively.
 
 * [The Tim Feriss Show](http://tim.blog/podcast/) :last_quarter_moon: - Weekly.
 
