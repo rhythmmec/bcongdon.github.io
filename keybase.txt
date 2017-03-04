@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/bcongdon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://benjamincongdon.me
+  * I am bcongdon (https://keybase.io/bcongdon) on keybase.
+  * I have a public key ASAw4qXGPKj44WCoCoq2nJlsny7jO8Jelmr_LSmEHceIVgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012030e2a5c63ca8f8e160a80a8ab69c996c9f2ee33bc25e966aff2d29841dc788560a",
+            "host": "keybase.io",
+            "kid": "012030e2a5c63ca8f8e160a80a8ab69c996c9f2ee33bc25e966aff2d29841dc788560a",
+            "uid": "f4a637ebc2a47ef612e8ab4e8b29ab19",
+            "username": "bcongdon"
+        },
+        "service": {
+            "hostname": "benjamincongdon.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1488631942,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1488631899,
+        "hash": "354478a51632f1577aa4919e51bee9a34337a36ffc43b56f42460ae6fa06d20ff49ab45194f8424b354945621a67ccff5b017624d11a6513c7869bfed4c0bcfd",
+        "seqno": 938369
+    },
+    "prev": "d779c6b210e6bd75dd4969fb07253845d8844a255957508d71367b07e3f8b39a",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgMOKlxjyo+OFgqAqKtpyZbJ8u4zvCXpZq/y0phB3HiFYKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMzBlMmE1YzYzY2E4ZjhlMTYwYTgwYThhYjY5Yzk5NmM5ZjJlZTMzYmMyNWU5NjZhZmYyZDI5ODQxZGM3ODg1NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzBlMmE1YzYzY2E4ZjhlMTYwYTgwYThhYjY5Yzk5NmM5ZjJlZTMzYmMyNWU5NjZhZmYyZDI5ODQxZGM3ODg1NjBhIiwidWlkIjoiZjRhNjM3ZWJjMmE0N2VmNjEyZThhYjRlOGIyOWFiMTkiLCJ1c2VybmFtZSI6ImJjb25nZG9uIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJiZW5qYW1pbmNvbmdkb24ubWUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDg4NjMxOTQyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODg2MzE4OTksImhhc2giOiIzNTQ0NzhhNTE2MzJmMTU3N2FhNDkxOWU1MWJlZTlhMzQzMzdhMzZmZmM0M2I1NmY0MjQ2MGFlNmZhMDZkMjBmZjQ5YWI0NTE5NGY4NDI0YjM1NDk0NTYyMWE2N2NjZmY1YjAxNzYyNGQxMWE2NTEzYzc4NjliZmVkNGMwYmNmZCIsInNlcW5vIjo5MzgzNjl9LCJwcmV2IjoiZDc3OWM2YjIxMGU2YmQ3NWRkNDk2OWZiMDcyNTM4NDVkODg0NGEyNTU5NTc1MDhkNzEzNjdiMDdlM2Y4YjM5YSIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQOtuwqL0AWByKNk9tJOVMSk8gqA/8T3E+seaPHREPp5MNBnVOG9BlohqmU+ifcezDAEPNbGZkudMvsB+WhXPAgOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCWXx+47LgJ1ipB3B4+FyASfB1hOq2dbuNyMQd94MetGaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bcongdon
+
+==================================================================
