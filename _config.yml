@@ -41,6 +41,7 @@ gems:
   - jekyll-paginate
   - jekyll-seo-tag
   - rouge
+  - jemoji
 markdown: kramdown
 kramdown:
   input: GFM
