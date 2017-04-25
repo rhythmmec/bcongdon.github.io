@@ -67,3 +67,16 @@ header .jumbotron {
 .blog-img {
   margin: 0 auto;
 }
+
+figcaption {
+  color: #7a7a7a;
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 0.25rem;
+}
+
+figure {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
