@@ -22,8 +22,36 @@ ul.share-buttons img{
     display: block;
 }
 
-.post-title {
-    font-size: 36px;
+//////////////////////////
+// Posts
+
+.post {
+  // margin-bottom: 4em;
+
+  // note: only change margin for title,date if inside post block
+  .post-title {
+    margin-top: 0;
+    font-size: 2em;
+    a {
+      color: $post-title-color;
+    }
+  }
+
+  .post-meta {
+    display: flex;
+    flex-direction: row;
+  }
+
+  // Meta data line below post title
+  .post-date {
+    color: $post-date-color;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .post-tags {
+    align-self: flex-start;
+  }
 }
 
 a.post-title-link:hover {
@@ -79,4 +107,8 @@ figcaption {
 figure {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.pagination-container {
+  margin-top: 2rem;
 }
