@@ -29,7 +29,7 @@ ul.share-buttons img{
   // margin-bottom: 4em;
 
   // note: only change margin for title,date if inside post block
-  .post-title {
+  .feed-title {
     margin-top: 0;
     font-size: 2em;
     a {
@@ -82,14 +82,22 @@ a.post-title-link:hover {
   text-decoration: none;
 }
 
-header .jumbotron {
-  height: 300px;
-  margin-top: -20px;
-  background-size: contain;
-  webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; 
+@media (min-width:500px) {
+  header .jumbotron {
+    height: 300px;
+    margin-top: -20px;
+    background-size: contain;
+    webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; 
+  }
+}
+
+@media (max-width:500px) {
+  header .jumbotron {
+    display: none;
+  }
 }
 
 .blog-img {

@@ -15,8 +15,8 @@ description: Benjamin Congdon's Blog
 	{% for post in paginator.posts %}
 	{% assign loopindex = forloop.index %}
 	<article class='post'>
-	  <h1 class='post-title'>
-	    <a class='post-title-link' href="{{ site.path }}{{ post.url }}">
+	  <h1 class='feed-title'>
+	    <a class='feed-title-link' href="{{ site.path }}{{ post.url }}">
 	      {{ post.title }}
 	    </a>
 	  </h1>
