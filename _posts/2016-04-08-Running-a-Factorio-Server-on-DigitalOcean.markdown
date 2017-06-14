@@ -44,7 +44,11 @@ Enter DigitalOcean[^1]. For ~$5 a month, you can have your own self-hosted Facto
 
     `put /path/to/your/server/download/factorio_headless_x64_.X.X.X.tar.gz`
 
-    after filling in the correct file path and name for the server `tar.gz`.
+    after filling in the correct file path and name for the server `tar.gz` that you downloaded in step 1. (This will be a local path on your computer, something like 
+    
+    `/Users/<YOUR_USERNAME>/Downloads/factorio_headless_x64_X.X.X.tar.gz`
+    
+    if you're on a Mac)
 11. Go back to your SSH shell. If you run `ls` you'll see that the server `tar.gz` is in you're root directory!
 12. Run `tar -zxvf factorio_headless_x64_.X.X.X.tar.gz` to unzip the server files.
 13. Run `cd factorio` to enter your server folder.
