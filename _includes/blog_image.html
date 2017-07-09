@@ -1,4 +1,14 @@
 <figure class="image">
-    <img class="blog-img" src="{{ include.url }}" alt="{{ include.description }}">
+    {% if include.description %}
+        {% assign alt = include.description %}
+    {% else %}
+        {% assign path_components = include.url | split: "/" %} 
+        {% assign alt = (path_components | last) %}
+    {% endif %}
+    <a href="{{ include.url }}">
+        <img class="blog-img" src="{{ include.url }}" alt="{{ alt }}">
+    </a>
+    {% if include.description %}
     <figcaption>{{ include.description }}</figcaption>
+    {% endif %}
 </figure>
