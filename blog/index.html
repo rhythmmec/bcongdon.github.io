@@ -6,39 +6,32 @@ description: Benjamin Congdon's Blog
 
 {% include blog_css.html %}
 
-<div class="container">
-	<div class="row centered">
-		<h1>>Blog<</h1>
-	</div>
-	<hr>
-	{% assign endindex = site.posts.size - 1 %}
-	{% for post in paginator.posts %}
-	{% assign loopindex = forloop.index %}
-	<article class='post feed'>
-	  <h2 class='feed-title'>
-	    <a class='feed-title-link' href="{{ site.path }}{{ post.url }}">
-	      {{ post.title }}
-	    </a>
-	  </h1>
-	  {{ post.content | split:'<!--break-->' | first }}
-	  {% if post.content contains '<!--break-->' %}
-      	<a class="post-read-more" href="{{ site.path }}{{ post.url }}">»</a>
-   	  {% endif %}
-   	  {% include post_meta.html %}
-	  {% if loopindex < paginator.posts.size and loopindex != endindex %}
-	  <hr>
-	  {% endif %}
-	</article>
-	
-	{% endfor %}
+<div class="container feed">
+    <div class="row centered">
+        <h1 class="feed-header">>Blog<</h1>
+    </div>
+    {% for post in paginator.posts %}
+        <hr>
+        <article class='post'>
+          <h2 class='feed-title'>
+            <a class='feed-title-link' href="{{ site.path }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h1>
+          {{ post.content | split:'<!--break-->' | first }}
+          {% if post.content contains '<!--break-->' %}
+            <a class="post-read-more" href="{{ site.path }}{{ post.url }}">»</a>
+          {% endif %}
+        </article>
+    {% endfor %}
+    <hr>
+    {% include pagination.html %}
 
-	{% include pagination.html %}
-
-	<div class="row" style="padding-bottom: 19px;">
-	  <div class="col-md-12 centered">
-	    (<a href="{{ site.baseurl }}/feed.xml">Feed</a> | <a href="{{ site.baseurl }}/archive">Archive</a>)
-	  </div>
-	</div>
+    <div class="row" style="padding-bottom: 19px;">
+      <div class="col-md-12 centered">
+        (<a href="{{ site.baseurl }}/feed.xml">Feed</a> | <a href="{{ site.baseurl }}/archive">Archive</a>)
+      </div>
+    </div>
 </div>
 
 

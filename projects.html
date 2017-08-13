@@ -167,7 +167,7 @@ projects:
         <br>
       </div>
     </div>
-    {% assign tag_projects = (page.projects | where:"tag",tag) %}
+    {% assign tag_projects = page.projects | where:"tag",tag %}
     {% for p in tag_projects %}
     <div class="row project-title-row">
       <div class="col-md-10 project-title">

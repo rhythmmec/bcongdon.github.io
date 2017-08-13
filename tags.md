@@ -8,45 +8,30 @@ title: Tags
 
 # Tags
 <ul>
-  {% assign tags_list = (site.tags | sort:0) %}
+  {% capture tags %}{% for tag in site.tags %}{{tag[0] | downcase}}{{','}}{{tag[0]}}{{'|'}}{% endfor %}{% endcapture %}
+  {% assign tags_list = tags | split:"|" | sort %}
 
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-      <li><a href="#{{ tag }}" class=''>
-        {{ tag }} <span class='badge'>{{ site.tags[tag].size }}</span>
-      </a>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %}
-      <a href="#{{ tag[0] }}" class='label label-primary glyph-label'>
-        <span class='glyphicon glyphicon-tags' style='padding-right: 5px; white-space: nowrap;'></span>
-        {{ tag[0] }}
-        <!-- <span class='badge'>{{ tag[1].size }}</span> -->
-      </a>
-    {% endfor %}
-  {% endif %}
+
+  {% for tag in tags_list %}
+    {% assign tag_arr = tag | split:"," %}
+    <a href="#{{ tag_arr[1] }}" class='label label-primary glyph-label'>
+      <span class='glyphicon glyphicon-tags' style='padding-right: 5px; white-space: nowrap;'></span>
+      {{ tag_arr[1] }}
+    </a>
+  {% endfor %}
 </ul>
 
 
 {% for tag in tags_list %}
-  <h2 class='tag-header' id="{{ tag[0] }}">{{ tag[0] }}</h2>
+  {% assign tag_arr = tag | split:"," %}
+  <h2 class='tag-header' id="{{ tag_arr[1] }}">{{ tag_arr[1] }}</h2>
   <ul>
-    {% assign pages_list = tag[1] %}
-
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if group == null or group == node.group %}
-          {% if page.url == node.url %}
-          <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
-          {% else %}
-          <li><a href="{{node.url}}">{{node.title}}</a></li>
-          {% endif %}
-        {% endif %}
+    {% assign pages_list = site.tags[tag_arr[1]] %}
+    {% for post in site.posts %}
+      {% if post.tags contains tag_arr[1] %}
+        <li><a href="{{post.url}}">{{post.title}}</a></li>
       {% endif %}
     {% endfor %}
-
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
   </ul>
 {% endfor %}
 {% assign tags_list = nil %}

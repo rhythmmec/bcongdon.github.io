@@ -11,7 +11,7 @@ blog_url: "blog"
 twitter_username: BenRCongdon
 github_username:  bcongdon
 medium_username: bencongdon
-500px_username: BenRCongdon
+five_hundred_px_username: BenRCongdon
 quora_username: Benjamin-Congdon-1
 goodreads_username: benjamincongdon
 
@@ -36,7 +36,7 @@ sass:
   compressed: true
   sass_dir: css
   style:    expanded
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
