@@ -31,7 +31,6 @@ ul.share-buttons img{
   // note: only change margin for title,date if inside post block
   .feed-title {
     margin-top: 0;
-    font-size: 2em;
     a {
       color: $post-title-color;
     }
@@ -44,19 +43,34 @@ ul.share-buttons img{
 
   // Meta data line below post title
   .post-date {
+    font-size: 0.85rem;
     color: $post-date-color;
     margin-left: auto;
     flex-shrink: 0;
+    margin-bottom: 0.75rem;
   }
 
   .post-tags {
     align-self: flex-start;
   }
+
+  .post-title {
+    margin-bottom: 0px;
+  }
+
+  .post-title-link:hover {
+      text-decoration: none;
+  }
+
+  .post-title-link:hover {
+      text-decoration: none;
+  }
 }
 
-a.post-title-link:hover {
-    color: #777;
-    text-decoration: none;
+.feed {
+  .post-meta {
+    margin-top: -0.5rem;
+  }
 }
 
 .post-read-more {
