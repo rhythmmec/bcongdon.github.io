@@ -71,6 +71,10 @@ ul.share-buttons img{
   .post-meta {
     margin-top: -0.5rem;
   }
+
+  .feed-header {
+    font-family: $accent-font-family;
+  }
 }
 
 .post-read-more {
@@ -135,9 +139,11 @@ figure {
   margin-top: 2rem;
 }
 
-:target:before {
-  content: "";
-  display: block;
-  height: 60px;
-  margin-top: -60px;
+h1, h2, h3, h4, h5, h6 {
+  &:target:before {
+    content: "";
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+  }
 }

@@ -1,11 +1,12 @@
 ---
 ---
+@import 'settings';
 
 /* Space out content a bit */
 body {
   padding-top: 70px;
   padding-bottom: 20px;
-  font-family: "Raleway";
+  font-family: $font-family;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -27,22 +28,22 @@ body {
 }
 
 .category-header{
-  text-align: left
+  text-align: left;
 }
 
 .project-title{
-  font-weight: bolder;
   font-size: 16px;
 }
 
 .project-date {
-  color: #7f7f7f;
-  font-weight: lighter;
-  font-size: 12px
+  color: $post-date-color;
+  font-size: 13px;
+  text-align: left;
 }
 
 .project-desc {
-  padding-bottom: 15px
+  padding-bottom: 15px;
+  font-size: 1.4rem;
 }
 
 .project-title-row {
@@ -93,7 +94,7 @@ body {
 
   p {
     font-size: 16px;
-    font-weight: lighter;
+    // font-weight: lighter;
     text-indent: 5%;
   }
 }
@@ -123,21 +124,18 @@ body {
 .marketing p + h4 {
   margin-top: 28px;
 }
-.profile {
+.img-profile {
+  border-radius: 24px;
   max-width: 40%;
 }
 
-.project-date {
-  text-align: left;
-}
-
 .benjamin {
-  font-weight: lighter;
+  font-weight: 400;
   color: #7f7f7f
 }
 
 .congdon {
-  font-weight: bolder;
+  font-weight: 600;
   color: #000000
 }
 
@@ -168,6 +166,10 @@ body {
   }
 }
 
+.accented {
+  font-family: $accent-font-family;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 786px) {
   .header,
@@ -182,14 +184,14 @@ body {
   .headshot {
     border-bottom: 0;
   }
-  .profile{
+  .img-profile{
     max-width:40%;
     color: #000000
   }
 }
 
 @media screen and (min-width: 1000px){
-  .profile{
+  .img-profile{
     max-width:60%;
   }
   .project-date{
