@@ -6,18 +6,22 @@ description: Benjamin Congdon's Projects
 tags:
   - Web
   - Desktop
+  - Libraries
   - Academic
-  - Mobile
   - Misc
 contributions:
-  - name: Helium
-    url: https://github.com/JadenGeller/Helium/commits/master?author=bcongdon
   - name: matplotlib
-    url: https://github.com/matplotlib/matplotlib/commits/master?author=bcongdon
-  - name: Youtube-dl
-    url: https://github.com/rg3/youtube-dl/commits/master?author=bcongdon
+    url: https://github.com/matplotlib/matplotlib/
+    url: https://github.com/rg3/youtube-dl/
   - name: Zappa
-    url: https://github.com/Miserlou/Zappa/commits/master?author=bcongdon
+    url: https://github.com/Miserlou/Zappa/
+  - name: redux-implicit-oauth2
+    url: https://github.com/bcongdon/redux-implicit-oauth2
+  - name: Helium
+    url: https://github.com/JadenGeller/Helium/
+  - name: three-x3d-loader
+    url: https://github.com/jonaskello/three-x3d-loader
+
 projects:
   # Desktop
   - name: Groot Display
@@ -95,14 +99,7 @@ projects:
     desc: Visualization of Twitter sentiment for current US Presidential Candidates by state. (SIGIR)
     tag: Web
     time: Fall 2015
-    url: https://github.com/bcongdon/PoliticalHeatMap-SIGIR
-
-  # Mobile
-  - name: Wandr
-    desc: Geofencing iOS app for dementia patients and their caretakers. (Won 3rd place at HuskieHacks 2015)
-    tag: Mobile
-    time: Fall 2015
-    url: https://github.com/bcongdon/Wandr-HuskieHacks
+    url: https://github.com/bcongdon/PoliticalHeatMap-SIGIR  
 
   # Academic
   - name: Research Assistant, National Center for Supercomputing Applications
@@ -123,22 +120,58 @@ projects:
     time: 2014 - 2015
     url: assets/SubversiveMiningAttacksEE.pdf
 
-  # Misc
+  # Libraries
+  - name: bpy_lambda
+    desc: Python package to facilitate running the [Blender](https://www.blender.org/) bpy module in AWS Lambda
+    time: Summer 2017
+    url: https://github.com/bcongdon/git_lambda
+    tag: Libraries
+  - name: git_lambda
+    desc: Python package to facilitate running `git` in AWS Lambda
+    time: Summer 2017
+    url: https://github.com/bcongdon/git_lambda
+    tag: Libraries
+  - name: github_contributions
+    desc: A Python interface for Github's contribution system
+    url: https://github.com/bcongdon/github_contributions
+    tag: Libraries
+  - name: Travis Build Repeat
+    desc: Flexible framework for periodically repeating Travis Builds to avoid stale test results. Very useful for keeping integration tests up-to-date.
+    time: Spring 2017
+    url: https://github.com/bcongdon/travis-build-repeat
+    tag: Libraries
   - name: pyvethirtyeight
     desc: Python wrapper for Fivethirtyeight's Election Forecasts
     time: Fall 2016
     url: https://github.com/bcongdon/pyvethirtyeight
-    tag: Misc
+    tag: Libraries
   - name: dashing-wunderlist-stats
     desc: Wunderlist Stats widget for your Dashing dashboard
     time: Summer 2016
     url: https://github.com/bcongdon/dashing-wunderlist-stats
-    tag: Misc
+    tag: Libraries
   - name: python-Emojipedia
     desc: Python wrapper for [Emojipedia](http://emojipedia.org/). Allows for search / data collection on emojis.
-    tag: Misc
+    tag: Libraries
     time: Spring 2016
     url: https://github.com/bcongdon/python-emojipedia
+
+  # Misc
+  - name: git-haiku-bot
+    desc: A [Twitter bot](https://twitter.com/GitHaiku) that tweets haikus contructed from Git commit messages
+    tag: Misc
+    time: Spring 2017
+    url: https://github.com/bcongdon/git-haiku-bot
+  - name: trek-limerick-bot
+    desc: A [Twitter bot](https://twitter.com/TrekLimerickBot) that tweets limericks from Star Trek dialogue
+    tag: Misc
+    time: Spring 2017
+    url: https://github.com/bcongdon/trek-limerick-bot
+  - name: Wandr
+    desc: Geofencing iOS app for dementia patients and their caretakers. (Won 3rd place at HuskieHacks 2015)
+    tag: Misc
+    time: Fall 2015
+    url: https://github.com/bcongdon/Wandr-HuskieHacks
   - name: CrowdShout
     desc: Toolset for Twitch streamers to parse realtime chat responses
     tag: Misc
@@ -154,8 +187,8 @@ projects:
   <!-- Projects -->
   <div class="row">
     <div class="col-md-12 project-header">
-      <h2><b>>Projects<</b></h2>
-      <h4><a href="#Desktop">Desktop</a> | <a href="#Web">Web</a> | <a href="#Mobile">Mobile</a> | <a href="#Academic">Academic</a> | <a href="#contributions">Contributions</a> | <a href="#misc">Misc</a></h4>
+      <h2 class="accented"><b>Projects</b></h2>
+      <h4><a href="#Desktop">Desktop</a> | <a href="#Web">Web</a> | <a href="#Libraries">Libraries</a> | <a href="#Academic">Academic</a> | <a href="#contributions">Contributions</a> | <a href="#misc">Misc</a></h4>
     </div>
   </div>
   <hr>
@@ -163,7 +196,7 @@ projects:
   {% for tag in page.tags %}
     <div class="row" id="{{ tag }}">
       <div class="col-md-12">
-        <h3><b>>{{ tag }}<</b></h3>
+        <h3 class="accented"><b>{{ tag }}</b></h3>
         <br>
       </div>
     </div>
@@ -195,7 +228,7 @@ projects:
   <!-- #### Contributions #### -->
   <div class="row" id="contributions">
     <div class="col-md-12">
-      <h3><b>>Open Source Contributions<</b></h3>
+      <h3 class="accented"><b>Open Source Contributions</b></h3>
       <br>
     </div>
   </div>
