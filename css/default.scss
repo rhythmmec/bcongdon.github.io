@@ -32,7 +32,7 @@ body {
 }
 
 .project-title{
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .project-date {
@@ -43,7 +43,7 @@ body {
 
 .project-desc {
   padding-bottom: 15px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 /* Custom page header */
@@ -196,4 +196,9 @@ body {
   .project-date{
     text-align: right;
   }
+}
+
+.navbar {
+  box-shadow: none;
+  background-image: none;
 }
