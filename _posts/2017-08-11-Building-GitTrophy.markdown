@@ -80,7 +80,9 @@ The `git clone` optimizations brought down the time-to-scrape significantly, but
 
 Assuming that larger repos likely tend to be more popular (and vice-versa), I expect the hit rate for this cached data to be rather high.
 
-I also pre-cached the [top 1000 most popular repositories](http://github-rank.com/star) in S3, just to cover-the-bases of really popular repos.
+I also pre-fetched the [top 1000 most popular repositories](http://github-rank.com/star) in S3, just to cover-the-bases of really popular repos.
+
+{% include blog_image.html url="/img/2017-08-11-Building-GitTrophy/aws.png" description="GitTrophy AWS Setup" %}
 
 ### Frontend
 
