@@ -13,7 +13,7 @@ After a month of work, it's complete! So, I'm happy to announce [GitTrophy](http
 
 ## Inspiration
 
-Looking at my [Github profile](https://github.com/bcongdon), it's not hard to tell that I care about my contribution history. That's why I've found previous projects like [Github Report Card](https://githubreportcard.reflect.io/), [Commit Print](commitprint.com), and [Isometric Contributions](https://github.com/jasonlong/isometric-contributions) so interesting.[^1]
+Looking at my [Github profile](https://github.com/bcongdon), it's not hard to tell that I care about my contribution history. That's why I've found previous projects like [Github Report Card](https://githubreportcard.reflect.io/), [Commit Print](https://commitprint.com), and [Isometric Contributions](https://github.com/jasonlong/isometric-contributions) so interesting.[^1]
 
 My initial idea was to have some type of generator to create 3d models of Github contributions. I wasn't sure if I'd be able to hack it to work in a browser (though that was the ultimate goal), or if it'd be just a script.
 
