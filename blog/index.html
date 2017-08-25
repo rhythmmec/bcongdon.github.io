@@ -22,6 +22,7 @@ description: Benjamin Congdon's Blog
           {% if post.content contains '<!--break-->' %}
             <a class="post-read-more" href="{{ site.path }}{{ post.url }}">»</a>
           {% endif %}
+          <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
         </article>
     {% endfor %}
     <hr>
