@@ -18,9 +18,10 @@ description: Benjamin Congdon's Blog
               {{ post.title }}
             </a>
           </h1>
-          {{ post.content | split:'<!--break-->' | first }}
-          {% if post.content contains '<!--break-->' %}
-            <a class="post-read-more" href="{{ site.path }}{{ post.url }}">»</a>
+          {% if post.excerpt %}
+              {{ post.excerpt | strip_html }}<a class="post-read-more" href="{{ site.path }}{{ post.url }}">»</a>
+          {% else %}
+              {{ post.content }}
           {% endif %}
           <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
         </article>

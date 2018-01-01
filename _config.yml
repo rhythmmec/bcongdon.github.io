@@ -25,6 +25,7 @@ show_sharing_icons:   true
 enable_mathjax: false
 extended_fonts: false
 
+excerpt_separator: <!--break-->
 
 # Build settings
 markdown: kramdown
