@@ -1,0 +1,81 @@
+---
+layout:     post
+title:      2017 in Review
+date:       2017-12-31 16:44:14
+tags:       meta
+---
+
+2017 was an interesting year. Personally and professionally, I found it to be a successful year of growth. <!--break--> Reflecting on this year's US/global news, my thoughts on 2017 are conflicted. We've seen the growth of troubling trends that will likely continue in 2018, and a significant amount of "bad" happened this year. From my own perspective, there were certainly setbacks and some periods of intense stress (thanks, college). I don't wish to whitewash legitimate (and pressing) concerns, but I wanted to take a moment to reflect on my year with an intentionally positive spin.
+
+Looking back on some milestones/accomplishments, this year I...
+
+* Completed my 4th and 5th semesters of College
+* Had a blast [interning at Zillow](http://benjamincongdon.me/blog/2017/09/04/Internship-2017-Zillow/)
+* Learned React
+* Started to learn Go
+* Was 100% vegetarian and ~90% vegan
+* Helped bootstrap a new Applied Cloud Computer Course at UIUC
+* Turned 21 🍻
+
+
+## Projects
+
+2017 was a fairly successful year in terms of projects. Most of my larger projects this year were "products" (as opposed to libraries / developer tools), which had been a goal of mine for the year.
+
+In 2018, I hope to diversify my projects a bit more. My tried-and-true AWS Lambda / React combo is starting to feel a bit stale. I'm hoping to dive into some lower-level distributed systems projects in the New Year. I'm also hoping (as always) to do more work on "established" Open Source projects, as I didn't get as many contributions in this year as I'd wanted.
+
+Here were my major projects for the year:
+
+[**git-trophy**](https://gittrophy.com): This was myf side project for the "second half" of the summer. Essentially, I wanted to 3D print my Github contributions chart, so I wrote a site using React and AWS Lambda to generate model files which can be printed using a service like Shapeways. I wrote up more about the project [here](http://benjamincongdon.me/blog/2017/08/11/Building-GitTrophy/). This project spawned a couple package spinoffs:
+
+* [**bpy_lambda**](https://github.com/bcongdon/bpy_lambda): In an early prototype of GitTrophy, I used Blender to render the models. As I wanted to host the service using AWS Lambda, I needed to compile Blender to a form usable by Lambda. This took quite a long time (about a week IIRC) to get right, due to the extremely limited set of libraries that Lambda has installed by default. I finally got all the compiler / linking options working, so I spun out this Python package to be an easy way to get up-and-running with Blender on Lambda. I ended up switching away from Blender in the final version of the service, but as far as I know I was the first person to get the Blender Python module to run on Lambda, which was a cool feeling.
+* [**git_lambda**](https://github.com/bcongdon/git_lambda): For similar reasons to bpy_lambda, I needed to compile git to work on AWS Lambda. Compiling git to work on Lambda was considerably easier, but I still decided to spin it out as a package for others to use. I can imagine there being a lot of uses for git in AWS Lambda beyond those that I considered for GitTrophy.
+
+[**GDQStatus**](https://gdqstat.us) ([January](http://benjamincongdon.me/blog/2017/01/22/GDQStatus-AGDQ-2017-Post-Mortem/), [July](http://benjamincongdon.me/blog/2017/07/09/GDQStatus-SGDQ-2017-The-React-Rewrite,-Architecture-Updates,-and-Lessons-Learned/)): This was another successful year for GDQStatus. For January's AGDQ, I moved the site hosting to AWS Lambda, which involved rewriting most of the app's backend code. For the summer's SGDQ, I rewrote most of the frontend codebase to use React. Both rewrites were were quite successful, and allowed me to do more cool visualizations. I don't think I'll be putting a huge amount of work into this project going forward, so I hope that this year's development puts GDQStatus in a place so that it can "coast" for a bit.
+
+[**groot**](https://github.com/acm-uiuc/groot): At the start of 2017, I devoted a lot of time to helping with the [ACM@UIUC](https://acm.illinois.edu/) "Groot" project. This involved a complete rewrite of our internal website/infrastructure, and we transitioned to a microservices model. I did a lot of work on Dockerizing our services, and getting them [deployed](https://github.com/acm-uiuc/groot-deploy) with docker-compose. I also did some work on our internal [credits service](https://github.com/acm-uiuc/groot-credits-service), [meme board](https://github.com/acm-uiuc/groot-meme-service/), and in-office Raspberry-Pi-powered [display](https://github.com/acm-uiuc/display).
+
+[**travis-build-repeat**](https://github.com/bcongdon/travis-build-repeat): This project came out of the need to periodically repeat TravisCI jobs to detect if builds break over time. I wrote travis-build-repeat on top of Zappa, and it worked quite well -- jobs could be triggered at customizable intervals. However, around the time I was working on this project, TravisCI [introduced CRON builds](https://blog.travis-ci.com/2016-12-06-the-crons-are-here) into public beta, which made this project *mostly* obsolete. So it goes... 😅 (I'm quite glad TravisCI added first-party support for repeated builds!)
+
+[**git-haiku-bot**](https://github.com/bcongdon/git-haiku-bot) / [**trek-limerick-bot**](https://github.com/bcongdon/trek-limerick-bot): During Spring break, I had a bit of time to kill and threw together these Twitter bots. I'm quite happy with how they turned out! Still makes me happy to see them pop-up in my feed occasionally.
+
+**CS199: Applied Cloud Computing**: The university course I've helped develop over the past couple semesters continues to do well! We're transitioning the course to AWS (previously it was self-hosted, and later on GCP), and we're expanding for the Spring 2018 semester. We're anticipating somewhere in the range of 3-4x the number of students we've had previously, so I'm sure it'll be a busy semester.
+
+## Books
+
+This year, I made more of a concerted effort to read books. I set a (fairly conservative) goal of 12 books, and ended up reading 13. I think it was a worthwhile exercise, and a goal that I'll reset for 2018.
+
+Here were my favorite reads of the year:
+
+* *[Deep Work](https://www.goodreads.com/book/show/25744928-deep-work) by Cal Newport*: This is a great read about modern distractions, and the types of environments that allow us to do meaningful work.
+* *[Ethics in the Real World](https://www.goodreads.com/book/show/30272030-ethics-in-the-real-world) by Peter Singer*: I really enjoy Peter Singer's theory of ethics. This book consists of easily digestible essays on contemporary ethical issues, and is a good introduction to Singer's notions of effective altruism. Not all of the essays stuck with me, but many of them are quite thought-provoking. 
+* *[Eating Animals](https://www.goodreads.com/book/show/6604712-eating-animals) by Jonathan Safran Foer*: "Eating Animals" won't be for everyone, but for anyone who is interested in ethics, environmental issues, and/or vegetarianism/veganism, this is an amazing book. It examines the complicated relationship that humans have with food, culture, animals, and our environment.
+
+
+## By The Numbers
+
+Since I'm somewhat of a "Quantified Self"-er, here's some stats from this year. In 2017, I...
+
+* took **4,655,066 steps** (according to Fitbit)
+* received **13,883** emails (mostly spam) and sent **491**
+* completed **6,777** tasks in Todoist
+* made **2,528** contributions on Github
+* sent **1,891** tweets
+* wrote **13** blog posts (including this one)
+* read **13** books
+* took **8** university courses
+
+## Looking Forward
+
+I find New Year's Resolutions to be a rather ineffective way to coerce myself into doing new things. However, year boundaries do offer a good marker in time to set transitions in motion. It's a useful time to reflect, from first-principles, on the practices and policies we keep. I've thought a lot recently about how I organize my life: my relationships with friends/family/peers, my information diet (social media & otherwise), productivity tools, and what I try to "get out of" college, work, and my side projects.
+
+The New Year holds a lot of promise! After making it through the (somewhat grueling) Fall 2017 "interview season", I have some really exciting internships lined up for this year (more on that later 😉). I'm also looking forward to going back to school in the New Year, despite the cold Illinois winter -- I've planned my semester to contain application-oriented courses, which will be a nice transition to the mostly theoretical courses I took this semester.
+
+In broad stokes, for 2018 I'm hoping to...
+
+* Continue learning cool stuff (through College, internships, and projects)
+* Contribute more to Open Source projects
+* Work on more low-level code (maybe more Golang?)
+* Work on more distributed and cloud systems
+
+Here's to 2️⃣0️⃣1️⃣8️⃣❗ 🥂🎉
