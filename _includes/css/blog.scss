@@ -100,22 +100,14 @@ ul.share-buttons img{
   text-decoration: none;
 }
 
-@media (min-width:500px) {
-  header .jumbotron {
-    height: 300px;
-    margin-top: -20px;
-    background-size: contain;
-    webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; 
-  }
-}
-
-@media (max-width:500px) {
-  header .jumbotron {
-    display: none;
-  }
+header .jumbotron {
+  height: 300px;
+  margin-top: -20px;
+  background-size: contain;
+  webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; 
 }
 
 .blog-img {

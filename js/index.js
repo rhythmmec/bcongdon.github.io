@@ -1,12 +1,3 @@
-// window.addEventListener("scroll", function() {
-//     if (window.scrollY > 400) {
-//         $('.navbar').fadeIn();
-//     }
-//     else {
-//         $('.navbar').fadeOut();
-//     }
-// },false);
-
 $(window).load(function(){
 	var hash = window.location.hash.substring(1);
     var href = document.getElementById(hash)

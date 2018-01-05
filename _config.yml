@@ -30,13 +30,13 @@ excerpt_separator: <!--break-->
 # Build settings
 markdown: kramdown
 permalink:     /blog/:year/:month/:day/:title/
-paginate:     5
+paginate:     8
 paginate_path: 'blog/page:num'
 future: true
 sass:
   compressed: true
-  sass_dir: css
-  style:    expanded
+  sass_dir: _includes/css
+  style:    compressed
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -47,4 +47,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-exclude: [README.md, vendor, script]
+exclude: [README.md, vendor, script, Gemfile*, LICENSE.md]

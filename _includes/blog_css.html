@@ -1,2 +1,9 @@
-<link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css" >
-<link rel="stylesheet" type="text/css" href="{{ site.path }}/css/pygment.css" >
+{% capture include_to_scssify %}
+    {% include css/_settings.scss %}
+    {% include css/style.scss %}
+    {% include css/blog.scss %}
+{% endcapture %}
+
+<style type="text/css">
+    {{ include_to_scssify | scssify }}
+</style>

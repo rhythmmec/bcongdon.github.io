@@ -1,7 +1,3 @@
----
----
-@import 'settings';
-
 /* Space out content a bit */
 body {
   padding-top: 70px;
@@ -201,4 +197,8 @@ body {
 .navbar {
   box-shadow: none;
   background-image: none;
+
+  li {
+    font-size: 16px;
+  }
 }
