@@ -4,20 +4,16 @@ title: Archive
 description: The archive for Benjamin Congdon's Blog
 ---
 
-<link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css" >
-
 <div class="container">
   <h1>Archive</h1>
-  {% for post in site.posts %}
   <div class="container">
-    <span>{{ post.date | date: "%b %-d, %Y" }} »</span>
-    <span class='post-title'>
-      <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
-    </span>
-  </div>
+  {% for post in site.posts %}
+    <div>
+        <span>{{ post.date | date: "%b %-d, %Y" }} »</span>
+        <span class='post-title'>
+          <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
+        </span>
+    </div>
   {% endfor %}
+    </div>
 </div>
-
-<!-- Layout adapted from Jekyll-Minimal-Theme -->
-<!-- https://github.com/henrythemes/jekyll-minimal-theme -->
-<!-- Thanks to Github user 'henrythemes' -->
